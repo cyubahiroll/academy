@@ -1,21 +1,34 @@
-const app = require('./app');
+process.on('uncaughtException', (err) => {
+  console.error('[FATAL] Uncaught Exception:', err.message);
+  console.error(err.stack);
+});
+process.on('unhandledRejection', (reason) => {
+  console.error('[FATAL] Unhandled Rejection:', reason);
+});
+
+let app;
+try {
+  app = require('./app');
+  console.log('[Server] App loaded successfully');
+} catch (err) {
+  console.error('[FATAL] Failed to load app:', err.message);
+  console.error(err.stack);
+  process.exit(1);
+}
+
 const { initDatabase } = require('./config/dbInit');
 
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, async () => {
-  console.log(`Server running on port ${PORT}`);
-  console.log(`API: http://localhost:${PORT}/api`);
-  console.log(`Health: http://localhost:${PORT}/api/health`);
+  console.log(`[Server] Running on port ${PORT}`);
 
-  // Auto-create tables and seed data if database is empty
   try {
     await initDatabase();
   } catch (e) {
     console.error('[Server] DB init failed:', e.message);
   }
 
-  // Pre-warm book search index (non-blocking, won't crash if DB is down)
   try {
     const { loadChunks } = require('./services/documentSearch');
     console.log('[Server] Building book search index...');
