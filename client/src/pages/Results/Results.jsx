@@ -25,8 +25,8 @@ function Results() {
         axios.get(`${API_URL}/quiz-results`, getHeaders()),
         axios.get(`${API_URL}/exam-results`, getHeaders())
       ]);
-      setQuizResults(quizRes.data);
-      setExamResults(examRes.data);
+      setQuizResults(Array.isArray(quizRes.data) ? quizRes.data : []);
+      setExamResults(Array.isArray(examRes.data) ? examRes.data : []);
     } catch (error) {
       console.error('Failed to load results:', error);
     } finally {

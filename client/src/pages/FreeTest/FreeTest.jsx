@@ -130,7 +130,7 @@ function FreeTest() {
     setLoading(true);
     try {
       const data = await freeTestService.history();
-      setHistoryData(data);
+      setHistoryData(Array.isArray(data) ? data : []);
       setPhase('history');
     } catch (err) {
       alert(t('freeTest.failedLoadHistory'));
@@ -341,7 +341,7 @@ function FreeTest() {
             </div>
 
             <div className="space-y-3 mb-8 max-h-96 overflow-y-auto">
-              {result.details?.map((d, i) => {
+              {(Array.isArray(result.details) ? result.details : []).map((d, i) => {
                 const correct = d.selected_answer?.toLowerCase() === d.correct_answer?.toLowerCase();
                 const opts = [
                   { l: 'a', t: d.option_a },

@@ -53,8 +53,8 @@ function Leaderboard() {
 
   const getAvatarColor = (index) => AVATAR_COLORS[index % AVATAR_COLORS.length];
 
-  const top3 = leaderboard.slice(0, 3);
-  const rest = leaderboard.slice(3);
+  const top3 = Array.isArray(leaderboard) ? leaderboard.slice(0, 3) : [];
+  const rest = Array.isArray(leaderboard) ? leaderboard.slice(3) : [];
 
   return (
     <>

@@ -24,12 +24,12 @@ function Admin() {
   useEffect(() => {
     const headers = { headers: { Authorization: `Bearer ${authService.getToken()}` } };
     Promise.all([
-      axios.get('/api/users', headers).then(r => r.data.length || '--').catch(() => '--'),
-      axios.get('/api/quizzes', headers).then(r => r.data.length || '--').catch(() => '--'),
-      axios.get('/api/videos', headers).then(r => r.data.length || '--').catch(() => '--'),
-      axios.get('/api/library', headers).then(r => r.data.length || '--').catch(() => '--'),
-      axios.get('/api/payments/admin', headers).then(r => r.data.length || '--').catch(() => '--'),
-      axios.get('/api/certificates/admin', headers).then(r => r.data.length || '--').catch(() => '--'),
+      axios.get('/api/users', headers).then(r => (r.data?.total ?? r.data?.users?.length) || '--').catch(() => '--'),
+      axios.get('/api/quizzes', headers).then(r => (Array.isArray(r.data) ? r.data.length : r.data?.total) || '--').catch(() => '--'),
+      axios.get('/api/videos', headers).then(r => (Array.isArray(r.data) ? r.data.length : r.data?.total) || '--').catch(() => '--'),
+      axios.get('/api/library', headers).then(r => (Array.isArray(r.data) ? r.data.length : r.data?.total) || '--').catch(() => '--'),
+      axios.get('/api/payments/admin', headers).then(r => (r.data?.total ?? (Array.isArray(r.data) ? r.data.length : 0)) || '--').catch(() => '--'),
+      axios.get('/api/certificates/admin', headers).then(r => (Array.isArray(r.data) ? r.data.length : r.data?.total) || '--').catch(() => '--'),
     ]).then(([u, q, v, d, p, c]) => {
       setStats([
         { label: 'Users', value: u, icon: FiUsers, color: 'from-blue-500 to-indigo-600', bgLight: 'bg-blue-50 dark:bg-blue-950/30' },

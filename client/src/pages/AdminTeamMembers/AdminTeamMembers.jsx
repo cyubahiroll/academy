@@ -20,7 +20,7 @@ function AdminTeamMembers() {
   const loadMembers = async () => {
     try {
       const data = await teamMemberService.getAll();
-      setMembers(data);
+      setMembers(Array.isArray(data) ? data : []);
     } catch (err) {
       toast.error('Failed to load team members');
     } finally {

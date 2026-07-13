@@ -29,7 +29,7 @@ function About() {
     const load = async () => {
       try {
         const data = await teamMemberService.getAll(true);
-        setTeam(data);
+        setTeam(Array.isArray(data) ? data : []);
       } catch (_e) {
       } finally {
         setLoading(false);

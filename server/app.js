@@ -20,6 +20,8 @@ const aiQuestionRoutes = require('./routes/aiQuestionRoutes');
 const aiChatRoutes = require('./routes/aiChatRoutes');
 const aiAnswerRoutes = require('./routes/aiAnswerRoutes');
 const teamMemberRoutes = require('./routes/teamMemberRoutes');
+const resultRoutes = require('./routes/resultRoutes');
+const contactRoutes = require('./routes/contactRoutes');
 
 const app = express();
 
@@ -28,6 +30,7 @@ app.use(cors({
     const allowedOrigins = [
       process.env.CLIENT_URL || 'http://localhost:5173',
       'https://academy.vercel.app',
+      'https://academy-virid-pi.vercel.app',
       'https://roadrulesacademy.vercel.app'
     ];
     if (!origin || allowedOrigins.includes(origin)) {
@@ -71,6 +74,8 @@ app.use('/api/ai-questions', aiQuestionRoutes);
 app.use('/api/ai-chat', aiChatRoutes);
 app.use('/api/ai', aiAnswerRoutes);
 app.use('/api/team', teamMemberRoutes);
+app.use('/api', resultRoutes);
+app.use('/api/contact', contactRoutes);
 
 app.use(notFound);
 app.use(errorHandler);

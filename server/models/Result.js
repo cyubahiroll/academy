@@ -19,7 +19,7 @@ const Result = {
 
   getQuizResultsByUser: async (userId) => {
     const [rows] = await db.query(
-      `SELECT qr.*, q.title as quiz_title, q.pass_score as required_score 
+      `SELECT qr.*, q.title as title, q.pass_score as required_score 
        FROM quiz_results qr JOIN quizzes q ON qr.quiz_id = q.id 
        WHERE qr.user_id = ? ORDER BY qr.completed_at DESC`, [userId]
     );
@@ -28,7 +28,7 @@ const Result = {
 
   getExamResultsByUser: async (userId) => {
     const [rows] = await db.query(
-      `SELECT er.*, e.title as exam_title, e.pass_score as required_score 
+      `SELECT er.*, e.title as title, e.pass_score as required_score 
        FROM exam_results er JOIN exams e ON er.exam_id = e.id 
        WHERE er.user_id = ? ORDER BY er.completed_at DESC`, [userId]
     );

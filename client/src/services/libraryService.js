@@ -70,30 +70,22 @@ const libraryService = {
   },
 
   getDocumentFile: async (id) => {
-    const token = authService.getToken();
-    const response = await fetch(`${API_URL}/${id}/file`, {
-      headers: { Authorization: `Bearer ${token}` }
+    const response = await axios.get(`${API_URL}/${id}/file`, {
+      headers: { Authorization: `Bearer ${authService.getToken()}` },
+      responseType: 'blob'
     });
-    if (!response.ok) {
-      const err = await response.json();
-      throw new Error(err.message || 'Failed to load document file');
-    }
-    return response.blob();
+    return response.data;
   },
 
-  downloadUrl: (id) => `/api/books/${id}/download`,
+  downloadUrl: (id) => `/api/library/${id}/download`,
 
   download: async (id) => {
-    const token = authService.getToken();
-    const response = await fetch(`/api/books/${id}/download`, {
-      headers: { Authorization: `Bearer ${token}` }
+    const response = await axios.get(`/api/library/${id}/download`, {
+      headers: { Authorization: `Bearer ${authService.getToken()}` },
+      responseType: 'blob'
     });
-    if (!response.ok) {
-      const err = await response.json();
-      throw new Error(err.message || 'Download failed');
-    }
-    const blob = await response.blob();
-    const disposition = response.headers.get('Content-Disposition');
+    const blob = response.data;
+    const disposition = response.headers?.['content-disposition'];
     const match = disposition?.match(/filename="?(.+?)"?$/);
     const filename = match ? match[1] : `document-${id}`;
     const url = window.URL.createObjectURL(blob);

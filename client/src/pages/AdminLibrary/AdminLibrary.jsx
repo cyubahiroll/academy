@@ -18,7 +18,7 @@ function AdminLibrary() {
   const loadDocuments = async () => {
     try {
       const data = await libraryService.getAll();
-      setDocuments(data);
+      setDocuments(Array.isArray(data) ? data : []);
     } catch (err) {
       toast.error('Failed to load documents');
     } finally {

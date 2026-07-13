@@ -61,7 +61,7 @@ function AiChat() {
     setLoadingHistory(true);
     try {
       const data = await aiChatService.getHistory();
-      setMessages(data);
+      setMessages(Array.isArray(data) ? data : []);
     } catch {
       // silent
     } finally {

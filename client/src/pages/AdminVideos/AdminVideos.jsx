@@ -18,7 +18,7 @@ function AdminVideos() {
   const loadVideos = async () => {
     try {
       const data = await videoService.getAll();
-      setVideos(data);
+      setVideos(Array.isArray(data) ? data : []);
     } catch (err) {
       toast.error('Failed to load videos');
     } finally {

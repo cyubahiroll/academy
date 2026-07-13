@@ -95,7 +95,7 @@ function Quiz() {
     }
     setSubmitting(true);
     try {
-      const answerArray = questions.map((_, i) => answers[i]);
+      const answerArray = (Array.isArray(questions) ? questions : []).map((_, i) => answers[i]);
       const data = await quizService.submit(currentQuiz.id, answerArray, timer);
       setResult(data);
       setStep('result');
@@ -209,7 +209,7 @@ function Quiz() {
   }
 
   const answeredCount = Object.keys(answers).length;
-  const progress = questions.length > 0 ? (answeredCount / questions.length) * 100 : 0;
+  const progress = (Array.isArray(questions) ? questions.length : 0) > 0 ? (answeredCount / questions.length) * 100 : 0;
 
   return (
     <>
@@ -247,7 +247,7 @@ function Quiz() {
         </div>
 
         <div className="space-y-4 animate-stagger">
-          {questions.map((q, i) => (
+          {(Array.isArray(questions) ? questions : []).map((q, i) => (
             <div key={q.id} className="dash-card p-4 sm:p-6">
               <div className="flex items-start gap-3 mb-4">
                 <span className="flex-shrink-0 w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold"

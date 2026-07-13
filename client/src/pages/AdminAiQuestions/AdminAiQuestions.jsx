@@ -23,7 +23,7 @@ function AdminAiQuestions() {
     setDocLoading(true);
     try {
       const data = await aiQuestionService.listDocuments();
-      setDocuments(data);
+      setDocuments(Array.isArray(data) ? data : []);
     } catch {
       toast.error('Failed to load documents');
     } finally {
@@ -37,7 +37,7 @@ function AdminAiQuestions() {
     setStep('select');
     try {
       const data = await aiQuestionService.preview(selectedDocId, questionCount);
-      setPreviewQuestions(data.questions);
+      setPreviewQuestions(Array.isArray(data.questions) ? data.questions : []);
       setStep('preview');
       toast.success(`Generated ${data.questions.length} questions`);
     } catch (err) {
