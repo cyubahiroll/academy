@@ -82,7 +82,7 @@ function Videos() {
             <div className="relative bg-black">
               <video controls className="w-full aspect-video" autoPlay>
                 <source
-                  src={apiUrl(selectedVideo.video_url)}
+                  src={apiUrl(videoService.streamUrl(selectedVideo.id))}
                   type={
                     selectedVideo.video_url?.endsWith('.mkv')
                       ? 'video/x-matroska'

@@ -34,7 +34,24 @@ const convertedDir = path.join(__dirname, '..', 'uploads', 'converted');
 if (USE_SOFFICE && !fs.existsSync(convertedDir)) fs.mkdirSync(convertedDir, { recursive: true });
 
 function escapeHtml(text) {
-  return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+}
+
+async function checkDocumentAccess(doc, userId) {
+  if (doc.is_free) return true;
+  const sub = await Subscription.findActiveByUser(userId);
+  if (sub) return true;
+  const db = require('../config/db');
+  const [purchases] = await db.query(
+    'SELECT id FROM document_purchases WHERE user_id = ? AND document_id = ? AND status = ?',
+    [userId, doc.id, 'completed']
+  );
+  if (purchases.length > 0) return true;
+  const [bookPurchases] = await db.query(
+    'SELECT id FROM purchased_books WHERE user_id = ? AND book_id = ?',
+    [userId, doc.id]
+  );
+  return bookPurchases.length > 0;
 }
 
 exports.readDocument = async (req, res, next) => {
@@ -43,6 +60,11 @@ exports.readDocument = async (req, res, next) => {
     if (!doc) {
       return res.status(404).json({ message: 'Document not found' });
     }
+
+    if (!await checkDocumentAccess(doc, req.user.id)) {
+      return res.status(403).json({ message: 'Please purchase this document to read' });
+    }
+
     const filePath = path.join(__dirname, '..', doc.file_url.replace(/^\//, ''));
 
     if (!fs.existsSync(filePath)) {
@@ -105,6 +127,10 @@ exports.serveReadFile = async (req, res, next) => {
     const doc = await Document.findById(req.params.id);
     if (!doc) return res.status(404).json({ message: 'Document not found' });
 
+    if (!await checkDocumentAccess(doc, req.user.id)) {
+      return res.status(403).json({ message: 'Please purchase this document to read' });
+    }
+
     const ext = path.extname(doc.file_url).toLowerCase();
     let filePath = path.join(__dirname, '..', doc.file_url.replace(/^\//, ''));
 
@@ -134,6 +160,10 @@ exports.serveReadFile = async (req, res, next) => {
     res.setHeader('Cache-Control', 'public, max-age=3600');
 
     const stream = fs.createReadStream(filePath);
+    stream.on('error', (err) => {
+      console.error('[Library] Read stream error:', err.message);
+      if (!res.headersSent) res.status(500).end();
+    });
     stream.pipe(res);
   } catch (error) {
     next(error);
@@ -334,6 +364,10 @@ exports.serveDocumentFile = async (req, res, next) => {
     res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate, private');
 
     const stream = fs.createReadStream(filePath);
+    stream.on('error', (err) => {
+      console.error('[Library] Document stream error:', err.message);
+      if (!res.headersSent) res.status(500).end();
+    });
     stream.pipe(res);
   } catch (error) {
     next(error);

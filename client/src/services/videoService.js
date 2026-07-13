@@ -18,6 +18,8 @@ const videoService = {
     return response.data;
   },
 
+  streamUrl: (id) => `${API_URL}/${id}/stream`,
+
   create: async (data) => {
     const response = await axios.post(API_URL, data, {
       headers: { Authorization: `Bearer ${authService.getToken()}` }

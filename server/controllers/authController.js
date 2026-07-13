@@ -1,6 +1,7 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { validationResult } = require('express-validator');
+const axios = require('axios');
 const User = require('../models/User');
 const { sendWelcomeEmail } = require('../utils/sendEmail');
 
@@ -193,6 +194,50 @@ exports.changePassword = async (req, res, next) => {
 
     res.json({ message: 'Password changed successfully' });
   } catch (error) {
+    next(error);
+  }
+};
+
+exports.googleLogin = async (req, res, next) => {
+  try {
+    const { access_token } = req.body;
+    if (!access_token) {
+      return res.status(400).json({ message: 'Google access token is required' });
+    }
+
+    const googleRes = await axios.get('https://www.googleapis.com/oauth2/v3/userinfo', {
+      headers: { Authorization: `Bearer ${access_token}` }
+    });
+
+    const { email, name, picture } = googleRes.data;
+    if (!email) {
+      return res.status(400).json({ message: 'Could not retrieve email from Google' });
+    }
+
+    let user = await User.findByEmail(email);
+
+    if (!user) {
+      const dummyPassword = await bcrypt.hash(require('crypto').randomBytes(32).toString('hex'), 10);
+      const userId = await User.create({
+        full_name: name || email.split('@')[0],
+        email,
+        password: dummyPassword,
+        phone: null
+      });
+      user = await User.findById(userId);
+      try { await sendWelcomeEmail(user); } catch (e) { /* email optional */ }
+    }
+
+    const token = generateToken(user.id);
+    const { password: _, ...userData } = user;
+
+    res.json({
+      message: 'Google login successful',
+      token,
+      user: userData
+    });
+  } catch (error) {
+    console.error('[Auth] Google login error:', error.message);
     next(error);
   }
 };

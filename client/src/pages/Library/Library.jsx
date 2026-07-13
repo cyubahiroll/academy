@@ -124,7 +124,9 @@ function Library() {
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 animate-stagger">
             {filtered.map((doc) => {
-              const ext = doc.file_type?.split('/').pop() || doc.file_url?.split('.').pop() || 'file';
+              const rawExt = doc.file_url?.split('.').pop()?.toLowerCase() || '';
+              const mimeExt = doc.file_type?.split('/').pop()?.toLowerCase() || '';
+              const ext = ['pdf','doc','docx','txt'].includes(rawExt) ? rawExt : (['pdf','doc','docx','txt'].includes(mimeExt) ? mimeExt : rawExt || 'file');
               const iconClass = fileIcons[ext] || 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300';
               return (
                 <div key={doc.id}
