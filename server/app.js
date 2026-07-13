@@ -31,7 +31,8 @@ app.use(cors({
       process.env.CLIENT_URL || 'http://localhost:5173',
       'https://academy.vercel.app',
       'https://academy-virid-pi.vercel.app',
-      'https://roadrulesacademy.vercel.app'
+      'https://roadrulesacademy.vercel.app',
+      'https://roadrulesacademy.onrender.com'
     ];
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);

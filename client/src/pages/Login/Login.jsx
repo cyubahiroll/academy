@@ -58,6 +58,15 @@ function Login() {
               {loading ? t('login.loggingIn') : t('login.loginBtn')}
             </button>
           </form>
+          <div className="mt-4">
+            <div className="relative">
+              <div className="absolute inset-0 flex items-center"><div className="w-full border-t border-gray-200 dark:border-gray-600"></div></div>
+              <div className="relative flex justify-center text-sm"><span className="px-2 bg-white dark:bg-gray-800 text-gray-400">or</span></div>
+            </div>
+            <div className="mt-4">
+              <GoogleSignInButton mode="login" />
+            </div>
+          </div>
           <p className="text-center mt-6 text-sm text-gray-500 dark:text-gray-400">
             {t('login.noAccount')} <Link to={`/register?redirect=${redirect}`} className="text-primary-600 hover:underline">{t('login.signUp')}</Link>
           </p>

@@ -63,7 +63,7 @@ function FreeTest() {
     setLoading(true);
     try {
       const data = await freeTestService.start();
-      setQuestions(data.questions);
+      setQuestions(Array.isArray(data.questions) ? data.questions : []);
       setAttemptId(data.attemptId);
       setAnswers({});
       setCurrentIndex(0);

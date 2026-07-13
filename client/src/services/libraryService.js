@@ -77,10 +77,10 @@ const libraryService = {
     return response.data;
   },
 
-  downloadUrl: (id) => `/api/library/${id}/download`,
+  downloadUrl: (id) => `${API_URL}/${id}/download`,
 
   download: async (id) => {
-    const response = await axios.get(`/api/library/${id}/download`, {
+    const response = await axios.get(`${API_URL}/${id}/download`, {
       headers: { Authorization: `Bearer ${authService.getToken()}` },
       responseType: 'blob'
     });

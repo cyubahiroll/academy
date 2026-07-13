@@ -19,7 +19,7 @@ function Certificate() {
       const { data } = await axios.get('/api/certificates/my', {
         headers: { Authorization: `Bearer ${authService.getToken()}` }
       });
-      setCertificates(data);
+      setCertificates(Array.isArray(data) ? data : []);
     } catch (error) {
       console.error('Failed to load certificates:', error);
     } finally {

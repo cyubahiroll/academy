@@ -185,10 +185,10 @@ function DocumentReader() {
         setTotalPages(1);
         setCurrentPage(1);
       } else if (readData?.type === 'text' || readData?.type === 'html') {
-        const content = readData.type === 'html' ? readData.content : readData.content;
+        const rawContent = readData.content || '';
         const textContent = readData.type === 'html'
-          ? readData.content.replace(/<[^>]+>/g, '').replace(/&[^;]+;/g, ' ')
-          : readData.content;
+          ? rawContent.replace(/<[^>]+>/g, '').replace(/&[^;]+;/g, ' ')
+          : rawContent;
         const textPages = splitIntoPages(textContent);
         setPages(textPages);
         setTotalPages(textPages.length);

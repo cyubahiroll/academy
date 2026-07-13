@@ -53,10 +53,11 @@ function AdminAiQuestions() {
     setGenerating(true);
     try {
       const data = await aiQuestionService.generate(selectedDocId, questionCount);
-      setPreviewQuestions(data.questions);
-      setSavedCount(data.questions.length);
+      const questions = Array.isArray(data.questions) ? data.questions : [];
+      setPreviewQuestions(questions);
+      setSavedCount(questions.length);
       setStep('done');
-      toast.success(`Saved ${data.questions.length} questions to database`);
+      toast.success(`Saved ${questions.length} questions to database`);
     } catch (err) {
       toast.error(err.response?.data?.message || 'AI generation failed');
     } finally {

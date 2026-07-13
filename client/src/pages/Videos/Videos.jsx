@@ -147,7 +147,7 @@ function Videos() {
                 <div className="relative aspect-video overflow-hidden">
                   {video.thumbnail ? (
                     <img
-                      src={video.thumbnail}
+                      src={apiUrl(video.thumbnail)}
                       alt={video.title}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
