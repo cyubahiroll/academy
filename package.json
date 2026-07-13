@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Road Rules Academy - Online Learning Platform",
   "scripts": {
+    "start": "cd server && node server.js",
+    "postinstall": "cd server && npm install",
     "server": "cd server && npm start",
     "server:dev": "cd server && npm run dev",
     "client": "cd client && npm run dev",
