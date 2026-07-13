@@ -264,17 +264,6 @@ CREATE TABLE free_test_attempts (
   FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
--- Free test answers
-CREATE TABLE free_test_answers (
-  id INT PRIMARY KEY AUTO_INCREMENT,
-  attempt_id INT NOT NULL,
-  question_id INT NOT NULL,
-  selected_answer ENUM('a', 'b', 'c', 'd'),
-  is_correct BOOLEAN DEFAULT FALSE,
-  FOREIGN KEY (attempt_id) REFERENCES free_test_attempts(id) ON DELETE CASCADE,
-  FOREIGN KEY (question_id) REFERENCES free_test_questions(id)
-);
-
 -- Free test questions (AI-generated)
 CREATE TABLE free_test_questions (
   id INT PRIMARY KEY AUTO_INCREMENT,
@@ -286,6 +275,17 @@ CREATE TABLE free_test_questions (
   correct_answer ENUM('a', 'b', 'c', 'd') NOT NULL,
   source VARCHAR(50) DEFAULT 'ai',
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Free test answers
+CREATE TABLE free_test_answers (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  attempt_id INT NOT NULL,
+  question_id INT NOT NULL,
+  selected_answer ENUM('a', 'b', 'c', 'd'),
+  is_correct BOOLEAN DEFAULT FALSE,
+  FOREIGN KEY (attempt_id) REFERENCES free_test_attempts(id) ON DELETE CASCADE,
+  FOREIGN KEY (question_id) REFERENCES free_test_questions(id)
 );
 
 -- AI chat messages

@@ -4,8 +4,8 @@ USE road_rules;
 
 -- Insert admin user (password: admin123)
 INSERT INTO users (full_name, email, password, phone, role) VALUES
-('Admin User', 'admin@roadrules.com', '$2a$10$YourHashedPasswordHere', '+256700000000', 'admin'),
-('John Doe', 'john@example.com', '$2a$10$YourHashedPasswordHere', '+256700000001', 'user');
+('Admin User', 'admin@roadrules.com', '$2a$10$03EEUGy5To7.PjiUmlggrezJYGwbB84mwqCYh27pwnnPlW0Sa6Xpq', '+256700000000', 'admin'),
+('John Doe', 'john@example.com', '$2a$10$03EEUGy5To7.PjiUmlggrezJYGwbB84mwqCYh27pwnnPlW0Sa6Xpq', '+256700000001', 'user');
 
 -- Insert categories
 INSERT INTO categories (name, slug, description, icon) VALUES
