@@ -1,8 +1,10 @@
 const mysql = require('mysql2/promise');
 const path = require('path');
-require('dotenv').config({ path: path.join(process.cwd(), '.env') });
 
-const pool = mysql.createPool({
+// Load .env from project root (works locally; on Render env vars are injected directly)
+try { require('dotenv').config({ path: path.join(process.cwd(), '.env') }); } catch(e) {}
+
+const dbConfig = {
   host: process.env.DB_HOST || 'localhost',
   port: parseInt(process.env.DB_PORT || '3306'),
   user: process.env.DB_USER || 'root',
@@ -13,16 +15,25 @@ const pool = mysql.createPool({
   queueLimit: 0,
   charset: 'utf8mb4',
   multipleStatements: true,
-  ssl: process.env.DB_SSL === 'true' ? { rejectUnauthorized: true } : undefined
-});
+};
 
+if (process.env.DB_SSL === 'true') {
+  dbConfig.ssl = { rejectUnauthorized: false };
+}
+
+console.log(`[DB] Config: host=${dbConfig.host} port=${dbConfig.port} db=${dbConfig.database} ssl=${dbConfig.ssl ? 'enabled' : 'disabled'}`);
+
+const pool = mysql.createPool(dbConfig);
+
+// Test connection (non-blocking - won't crash server)
 pool.getConnection()
   .then(conn => {
-    console.log('MySQL connected successfully');
+    console.log('[DB] MySQL connected successfully');
     conn.release();
   })
   .catch(err => {
-    console.error('MySQL connection failed:', err.message);
+    console.error('[DB] MySQL connection failed:', err.message);
+    console.error('[DB] Check your DB_HOST, DB_USER, DB_PASSWORD, DB_NAME env vars');
   });
 
 module.exports = pool;

@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-require('dotenv').config({ path: path.join(process.cwd(), '.env') });
+try { require('dotenv').config({ path: path.join(process.cwd(), '.env') }); } catch(e) {}
 
 const { errorHandler, notFound } = require('./middleware/errorMiddleware');
 

@@ -1,5 +1,4 @@
 const app = require('./app');
-const { loadChunks } = require('./services/documentSearch');
 
 const PORT = process.env.PORT || 3000;
 
@@ -8,11 +7,13 @@ app.listen(PORT, async () => {
   console.log(`API: http://localhost:${PORT}/api`);
   console.log(`Health: http://localhost:${PORT}/api/health`);
 
-  // Pre-warm book search index for fast responses
-  console.log('[Server] Building book search index...');
-  loadChunks().then(() => {
+  // Pre-warm book search index (non-blocking, won't crash if DB is down)
+  try {
+    const { loadChunks } = require('./services/documentSearch');
+    console.log('[Server] Building book search index...');
+    await loadChunks();
     console.log('[Server] Book search index ready');
-  }).catch(e => {
-    console.error('[Server] Failed to build search index:', e.message);
-  });
+  } catch (e) {
+    console.error('[Server] Search index build skipped:', e.message);
+  }
 });
