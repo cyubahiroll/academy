@@ -49,6 +49,10 @@ app.use('/uploads/profile', express.static(path.join(__dirname, 'uploads', 'prof
 app.use('/uploads/certificates', express.static(path.join(__dirname, 'uploads', 'certificates')));
 app.use('/uploads/videos', express.static(path.join(__dirname, 'uploads', 'videos')));
 
+app.get('/', (req, res) => {
+  res.json({ status: 'ok', service: 'road-rules-api', timestamp: new Date().toISOString() });
+});
+
 app.get('/api/health', async (req, res) => {
   const db = require('./config/db');
   try {
