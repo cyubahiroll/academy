@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-require('dotenv').config({ path: path.join(__dirname, '..', '.env') });
+require('dotenv').config({ path: path.join(process.cwd(), '.env') });
 
 const { errorHandler, notFound } = require('./middleware/errorMiddleware');
 
@@ -27,6 +27,7 @@ app.use(cors({
   origin: function (origin, callback) {
     const allowedOrigins = [
       process.env.CLIENT_URL || 'http://localhost:5173',
+      'https://academy.vercel.app',
       'https://roadrulesacademy.vercel.app'
     ];
     if (!origin || allowedOrigins.includes(origin)) {
