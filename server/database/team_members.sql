@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS team_members (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(100) NOT NULL,
+  role VARCHAR(100) NOT NULL,
+  description TEXT,
+  image_url VARCHAR(255),
+  display_order INT DEFAULT 0,
+  is_active BOOLEAN DEFAULT TRUE,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

@@ -1,0 +1,18 @@
+{
+  "name": "road-rules-academy",
+  "version": "1.0.0",
+  "description": "Road Rules Academy - Online Learning Platform",
+  "scripts": {
+    "server": "cd server && npm start",
+    "server:dev": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "client:build": "cd client && npm run build",
+    "build": "cd client && npm install && npm run build",
+    "dev": "concurrently \"npm run server:dev\" \"npm run client\"",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && node database/seed.js"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

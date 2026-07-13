@@ -1,0 +1,830 @@
+{
+  "common": {
+    "loading": "Birakora...",
+    "noData": "Nta makuru aboneka",
+    "save": "Kubika",
+    "cancel": "Guhagarika",
+    "delete": "Gusiba",
+    "edit": "Guhindura",
+    "back": "Inyuma",
+    "submit": "Ohereza",
+    "send": "Ohereza",
+    "search": "Gushaka",
+    "all": "Byose",
+    "active": "Gikora",
+    "inactive": "Ntigikora",
+    "score": "Amanota",
+    "correct": "Byemewe",
+    "wrong": "Mbi",
+    "total": "Yose",
+    "passed": "Yatsinze",
+    "failed": "Yatsinzwe",
+    "yes": "Yego",
+    "no": "Oya",
+    "saving": "Irabika...",
+    "uploading": "Irareka...",
+    "processing": "Irakora...",
+    "generating": "Irakora...",
+    "preparing": "Iritegura...",
+    "loggingIn": "Irinjira...",
+    "creatingAccount": "Gukora konti...",
+    "sending": "Irohereza...",
+    "submitting": "Irohereza...",
+    "solved": "Byakemuwe",
+    "cancelled": "Byahagaritswe",
+    "notSet": "Ntibishyirwe",
+    "notAvailable": "N/A",
+    "noDescription": "Nta gusobanura bihari",
+    "signs": "Ibimenyetso",
+    "minutes": "min",
+    "seconds": "s",
+    "points": "amanota",
+    "downloads": "gukuramo",
+    "views": "kureba",
+    "attempts": "kugerageza",
+    "quizzes": "ibizamini",
+    "exams": "ibizamini",
+    "found": "bisanze"
+  },
+  "nav": {
+    "brand": "Road Rules Academy",
+    "home": "Ahabanza",
+    "library": "Isomero",
+    "videos": "Amashusho",
+    "about": "Ibyerekeye",
+    "aiAssistant": "AI Ifasha",
+    "contact": "Twandikire",
+    "dashboard": "Ikibaho",
+    "profile": "Umwirondoro",
+    "logout": "Gusohoka",
+    "login": "Kwinjira",
+    "signUp": "Kwiyandikisha",
+    "adminPanel": "Ikibaho cy'Umuyobozi"
+  },
+  "footer": {
+    "brand": "Road Rules Academy",
+    "description": "Menya amategeko y'umuhanda, ibimenyetso, kandi witegure ikizamini cyo gutwara hamwe n'urubuga rwacu rw'imyigishirize.",
+    "quickLinks": "Ihuza ryihuse",
+    "resources": "Ibikoresho",
+    "contact": "Twandikire",
+    "home": "Ahabanza",
+    "library": "Isomero",
+    "videos": "Amashusho",
+    "aboutUs": "Ibyerekeye",
+    "contactUs": "Twandikire",
+    "faq": "Ibibazo",
+    "privacyPolicy": "Amabwiriza y'ibanga",
+    "termsOfService": "Amategeko y'ikoreshwa",
+    "location": "Kigali, Rwanda",
+    "email": "cyubahirotech@gmail.com",
+    "phone": "0791644613",
+    "copyright": "© {{year}} Road Rules Academy. Uburenganzira bwose bwabitswe.",
+    "useWhatsapp": "Koresha WhatsApp"
+  },
+  "hero": {
+    "trustedBy": "Izingirwa n'abanyeshuri 1,000+",
+    "title": "Menya Amategeko y'Umuhanda &",
+    "titleAccent": "Tsinda Ikizamini",
+    "subtitle": "Iga ibimenyetso by'umuhanda, amategeko, no kugenda witawe hamwe n'ibizamini, amashusho, n'ibikoresho by'abahanga.",
+    "getStarted": "Tangira Ubuntu",
+    "browseLibrary": "Reba Isomero",
+    "videoLessons": "Amasomo y'Amashusho",
+    "quizQuestions": "Ibibazo by'Ibizamini",
+    "activeStudents": "Abanyeshuri Bakora"
+  },
+  "howWeHelp": {
+    "badge": "Icyo Dutanga",
+    "title": "Uko Dufasha",
+    "subtitle": "Ibyose ukeneye kumenya amategeko y'umuhanda no gutsinda ikizamini cyo gutwara wizewe.",
+    "features": {
+      "roadRules": {
+        "title": "Amategeko Yuzuye",
+        "description": "Soma amategeko y'umuhanda n'ibimenyetso byose usobanukiwe mu Kinyarwanda, Icyongereza, n'Igifaransa."
+      },
+      "interactive": {
+        "title": "Myigishirize Ikoresha",
+        "description": "Jijisha ubumenyi bwawe ukoresheje ibizamini n'ibibazo by'ukuri."
+      },
+      "confidence": {
+        "title": "Tsinda Wizewe",
+        "description": "Baka ubuhanga n'icyizere cyo gutsinda ikizamini cyo gutwara."
+      },
+      "anywhere": {
+        "title": "Iga Aho Uri Hose",
+        "description": "Iga ukoresheje terefone yawe, n'iyo utari kuri interineti."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Ibiciro",
+    "title": "Integuro z'Ubuhanga",
+    "subtitle": "Fungura uburyo bwose bwo gukora ibizamini, kureba amashusho, no kubona ibihamya",
+    "mostPopular": "Ibyakunzwe Cyane",
+    "bestValue": "Indorerezi nziza",
+    "subscribeNow": "Kwiyandikisha",
+    "getStarted": "Tangira",
+    "plans": {
+      "monthly": {
+        "name": "Kwezi",
+        "period": "/ukwezi",
+        "features": ["Kwinjira ibizamini byose", "Amasomo y'amashusho", "Isomero rya PDF", "Icyemezo nyuma yo gutsinda", "Urutonde rw'abayobeje"]
+      },
+      "quarterly": {
+        "name": "Gifta",
+        "period": "/gifta",
+        "features": ["Byose muri Monthly", "Zigama 20%", "Ubufasha bw'ibanze", "Ibizamini by'ibanze"]
+      },
+      "yearly": {
+        "name": "Umwaka",
+        "period": "/umwaka",
+        "features": ["Byose muri Quarterly", "Zigama 33%", "Icyemezo gifatika", "Uburenganzira bw'iteka"]
+      }
+    }
+  },
+  "statistics": {
+    "videoLessons": "Amasomo y'Amashusho",
+    "quizQuestions": "Ibibazo by'Ibizamini",
+    "roadSigns": "Ibimenyetso by'Umuhanda",
+    "activeStudents": "Abanyeshuri Bakora"
+  },
+  "testimonials": {
+    "badge": "Iby'abantu Bavuga",
+    "title": "Icyo Abanyeshuri Bacu Bavuga",
+    "subtitle": "Umusoro w'abagenzi bakoresheje urubuga rwacu",
+    "testimonials": {
+      "sarah": {
+        "name": "Sarah K.",
+        "text": "Uru rubuga rwanshoboje gutsinda ikizamini cyanjye cyo gutwara ku nshuro ya mbere! Ibizamini bigana ukuri kandi amashusho atuma byumvikana neza.",
+        "role": "Umutwari Umyigishwa"
+      },
+      "james": {
+        "name": "James M.",
+        "text": "Amashusho n'isomero ry'ibimenyetso biruzuye. Ndabitegera cyane abagenzi bashya.",
+        "role": "Umutwari Mushya"
+      },
+      "peter": {
+        "name": "Peter O.",
+        "text": "Nkunda urutonde rw'abayobeje. Runtuza nkomeza kwiga no kunoza amanota yaniye.",
+        "role": "Umukoresha wa Premium"
+      }
+    }
+  },
+  "roadSigns": {
+    "badge": "Iga Ibimenyetso",
+    "title": "Isomero ry'Ibimenyetso",
+    "subtitle": "Iga ibimenyetso by'umuhanda byose ubisobanuriwe",
+    "browseFull": "Reba Isomero Ryose",
+    "viewSignImages": "Reba Ibishushanyo",
+    "categories": {
+      "warning": {
+        "name": "Ibimenyetso by'Umuburo",
+        "desc": "Hari akaga imbere, ugende witonze"
+      },
+      "regulatory": {
+        "name": "Ibimenyetso by'Itegeko",
+        "desc": "Ugomba kubyumvira"
+      },
+      "guide": {
+        "name": "Ibimenyetso by'Umurongo",
+        "desc": "Amakuru y'uburinganire n'izirayo"
+      },
+      "information": {
+        "name": "Ibimenyetso by'Amakuru",
+        "desc": "Serivisi n'ibikorwa imbere"
+      }
+    }
+  },
+  "certificateCard": {
+    "issued": "Cyatanzwe: {{date}}",
+    "expires": "Kirangira: {{date}}",
+    "download": "Gukuramo",
+    "verify": "Kugenzura"
+  },
+  "quizCard": {
+    "pass": "Gutsinda: {{score}}%",
+    "attempts": "{{count}} kugerageza",
+    "startFree": "Tangira Ikizamini Ubuntu",
+    "premium": "Ikizamini Premium",
+    "timeLimit": "{{time}} min"
+  },
+  "login": {
+    "title": "Murakaza Neza",
+    "subtitle": "Injira ukomeze kwiga",
+    "email": "Imeyili",
+    "password": "Ijambo ry'ibanga",
+    "loginBtn": "Kwinjira",
+    "loggingIn": "Irinjira...",
+    "noAccount": "Nta konti ufite?",
+    "signUp": "Kwiyandikisha",
+    "pageTitle": "Kwinjira - Road Rules",
+    "fillFields": "Nyura mo ibisabwa byose",
+    "loginFailed": "Kwinjira byananiwe"
+  },
+  "register": {
+    "title": "Kora Konti",
+    "subtitle": "Tangira kwiga amategeko y'umuhanda",
+    "fullName": "Izina Ryose *",
+    "email": "Imeyili *",
+    "phone": "Telefone",
+    "password": "Ijambo ry'ibanga *",
+    "confirmPassword": "Emeza ijambo ry'ibanga *",
+    "registerBtn": "Kora Konti",
+    "creatingAccount": "Gukora konti...",
+    "hasAccount": "Ufite konti?",
+    "login": "Kwinjira",
+    "pageTitle": "Kwiyandikisha - Road Rules",
+    "fillFields": "Nyura mo ibisabwa byose",
+    "passwordLength": "Ijambo ry'ibanga rigomba kuba byibura inyuguti 6",
+    "passwordsMatch": "✅ Amagambo y'ibanga arahura.",
+    "passwordsDoNotMatch": "❌ Amagambo y'ibanga ntahura.",
+    "checkUppercase": "Gikubiyemo byibura inyuguti nkuru (A–Z)",
+    "checkLowercase": "Gikubiyemo byibura inyuguti nto (a–z)",
+    "checkNumber": "Gikubiyemo byibura umubare (0–9)",
+    "checkSpecial": "Gikubiyemo byibura ikimenyetso kidasanzwe",
+    "checkLength": "Uburebure bw'ijambo ry'ibanga buri hagati ya 5 na 12",
+    "passwordStrength": "Imbaraga z'ijambo ry'ibanga:",
+    "weak": "Ntizikomeye",
+    "medium": "Ziringaniye",
+    "strong": "Zikomeye",
+    "registrationFailed": "Kwiyandikisha byananiwe"
+  },
+  "contact": {
+    "pageTitle": "Twandikire - Road Rules",
+    "title": "Twandikire",
+    "subtitle": "Ufite ikibazo? Twishimira kumva ubutumwa bwawe.",
+    "formTitle": "Twandikire",
+    "name": "Izina",
+    "email": "Imeyili",
+    "message": "Ubutumwa",
+    "sendBtn": "Ohereza Ubutumwa",
+    "sending": "Irohereza...",
+    "emailContact": "cyubahirotech@gmail.com",
+    "phoneContact": "+250791 644 613",
+    "location": "Kigali, Rwanda",
+    "fillFields": "Nyura mo ibisabwa byose",
+    "sentSuccess": "Ubutumwa bwoherejwe! Tuzakwishyura.",
+    "sendFailed": "Kohereza ubutumwa byananiwe",
+    "whatsapp": "Koresha WhatsApp"
+  },
+  "faq": {
+    "pageTitle": "Ibibazo - Road Rules",
+    "title": "Ibibazo Bikunze Kubazwa",
+    "subtitle": "Ibyose ugomba kumenya kuri Road Rules",
+    "questions": {
+      "account": {
+        "q": "Nigute nkora konti?",
+        "a": "Kanda buto ya \"Kwiyandikisha\" hejuru iburyo, wujuje amakuru yawe (izina, imeyili, ijambo ry'ibanga) hanyuma wohereze. Uzabona imeyili yo gushimangira konti yawe."
+      },
+      "free": {
+        "q": "Uru rubuga ruboreshwa ubuntu?",
+        "a": "Yego! Duha ibizamini by'ubuntu, amashusho, n'ibimenyetso. Ibikoresho by'ibanze bisaba ubwishyu."
+      },
+      "subscription": {
+        "q": "Nigute nguramo ubwishyu?",
+        "a": "Jya ku rupapuro rw'ibiciro, hitamo gahunda, hanyuma wemere ubwishyu bwa MTN MoMo, Airtel Money, cyangwa Visa/Mastercard."
+      },
+      "attempts": {
+        "q": "Ni kangahe nemerewe gukora ikizamini?",
+        "a": "Ibizamini by'ubuntu bituma ukora inshuro 3. Ibizamini by'ibanze nta kugabanyirwa kugerageza."
+      },
+      "certificate": {
+        "q": "Nigute mbona icyemezo cyanje?",
+        "a": "Tsinda ikizamini cya Premium ku manota 80% cyangwa hejuru. Icyemezo kizaboneka mu buryo bwa PDF."
+      },
+      "materials": {
+        "q": "Nshobora gukuramo ibikoresho by'amasomo?",
+        "a": "Inyandiko z'ubuntu zishobora gukurwamo igihe icyo ari cyo cyose. Inyandiko za Premium zisaba ubwishyu."
+      },
+      "aiChat": {
+        "q": "AI Chat ikora bite?",
+        "a": "AI Ifasha ishobora gusubiza ibibazo byawe byerekeye amategeko y'umuhanda yishakisha mu bitabo by'isomero."
+      },
+      "payment": {
+        "q": "Ni ubuhe buryo bw'ubwishyu bwemewe?",
+        "a": "Twemera MTN MoMo, Airtel Money, na Visa/Mastercard."
+      },
+      "resetPassword": {
+        "q": "Nigute ngarura ijambo ry'ibanga?",
+        "a": "Kanda \"Forgot Password\" ku rupapuro rwo kwinjira, winjize imeyili yawe, hanyuma ukurikize amabwiriza yoherejwe."
+      },
+      "mobile": {
+        "q": "Nshobora gukoresha urubuga kuri terefone?",
+        "a": "Yego! Urubuga rukora neza ku bikoresho byose."
+      }
+    }
+  },
+  "library": {
+    "pageTitle": "Isomero - Road Rules",
+    "title": "Isomero ry'Amategeko",
+    "subtitle": "Soma ibitabo n'ibimenyetso by'umuhanda",
+    "searchPlaceholder": "Shaka inyandiko...",
+    "noDocuments": "Nta nyandiko zisanze",
+    "browseImages": "Reba Ibishushanyo",
+    "readOnline": "Soma kuri Interineti",
+    "loginToRead": "Injira usome",
+    "visualGuide": "Ibishushanyo by'Ibimenyetso",
+    "visualGuideDesc": "Reba ibishushanyo by'ibimenyetso by'umuhanda nkuko biri mu gitabo",
+    "downloadCount": "{{count}} gukuramo"
+  },
+  "bookImages": {
+    "pageTitle": "Ibishushanyo - Isomero ry'Ibimenyetso",
+    "title": "Ibishushanyo by'Ibimenyetso",
+    "subtitle": "Reba ibishushanyo by'ibimenyetso by'umuhanda nkuko biri mu gitabo",
+    "searchPlaceholder": "Shaka ibimenyetso...",
+    "allSigns": "Ibimenyetso Byose",
+    "signsFound": "Ibimenyetso {{count}} bisanze",
+    "signsFound_plural": "Ibimenyetso {{count}} bisanze",
+    "noSigns": "Nta bimenyetso bihuye nibyo ushaka",
+    "description": "Ibisobanuro",
+    "referenceInBook": "Ahagaragara mu Gitabo",
+    "viewInLibrary": "Reba mu Isomero"
+  },
+  "videos": {
+    "pageTitle": "Amashusho - Road Rules",
+    "title": "Amasomo y'Amashusho",
+    "subtitle": "Reba amasomo y'amashusho kuri amategeko n'ibimenyetso",
+    "searchPlaceholder": "Shaka amashusho...",
+    "noVideos": "Nta mashusho asanze"
+  },
+  "quiz": {
+    "pageTitle": "Ikizamini cy'Ubuntu - Road Rules",
+    "title": "Ibizamini by'Ubuntu",
+    "subtitle": "Gerageza ubumenyi bwawe ukoresheje ibizamini by'ubuntu (inshuro 3)",
+    "noQuizzes": "Nta bizamini bihari",
+    "congratulations": "Murakoze!",
+    "keepTrying": "Mukomeze!",
+    "passed": "Watsinze ikizamini!",
+    "failed": "Ntiwatsinze. Ongera usubiremo.",
+    "backToQuizzes": "Subira ku Bizamini",
+    "tryAgain": "Ongera Ugerageze",
+    "aiThinking": "AI Iratekereza...",
+    "aiAutoAnswer": "AI Igisubizo",
+    "submitAnswers": "Ohereza Ibisubizo",
+    "submitting": "Irohereza...",
+    "aiAnswered": "AI yasubije {{count}} bibazo",
+    "aiFailed": "AI yananiwe gusubiza: {{message}}",
+    "pleaseAnswerAll": "Nyura mo ibibazo byose ({{count}} bisigaye)",
+    "cannotStartQuiz": "Ntishobora gutangira ikizamini",
+    "failedToLoad": "Gupakira ibizamini byananiwe",
+    "submissionFailed": "Kohereza byananiwe",
+    "question": "Ikibazo",
+    "of": "cya",
+    "attempt": "Kugerageza {{number}}"
+  },
+  "exam": {
+    "pageTitle": "Ibizamini - Road Rules",
+    "title": "Ibizamini bya Premium",
+    "subtitle": "Ibizamini by'ibihamya byuzuye",
+    "pass": "Gutsinda: {{score}}%",
+    "timeLimit": "{{time}} min",
+    "startExam": "Tangira Ikizamini",
+    "examPassed": "Ikizamini Kitsinze!",
+    "examFailed": "Ikizamini Kitsinzwe",
+    "backToExams": "Subira ku Bizamini",
+    "aiThinking": "AI Iratekereza...",
+    "aiAutoAnswer": "AI Igisubizo",
+    "submitAnswers": "Ohereza Ibisubizo",
+    "submitting": "Irohereza...",
+    "cannotStartExam": "Ntishobora gutangira ikizamini",
+    "failedToLoad": "Gupakira ibizamini byananiwe",
+    "submissionFailed": "Kohereza byananiwe"
+  },
+  "freeTest": {
+    "pageTitle": "Ikizamini cy'Ubuntu - Road Rules",
+    "title": "Ikizamini cy'Ubuntu cy'Umuhanda",
+    "subtitle": "Gerageza ubumenyi bwawe ukoresheje ibibazo bya AI",
+    "questionsPerTest": "Ibibazo 20 buri kizamini",
+    "secondsPerQuestion": "Isegonda 60 buri kibazo",
+    "passMark": "Amanota yo gutsinda: 12/20",
+    "differentQuestions": "Ibibazo bitandukanye buri gihe",
+    "startTest": "Tangira Ikizamini",
+    "preparing": "Iritegura...",
+    "viewPastResults": "Reba ibyavuye mu bizamini",
+    "questionXofY": "Ikibazo {{x}} cya {{y}}",
+    "aiAnswerAll": "AI Isubiza Byose",
+    "aiThinking": "AI Iratekereza...",
+    "passed": "Watsinze!",
+    "failed": "Watsinzwe",
+    "passedMsg": "Murakoze! Uzi neza amategeko y'umuhanda.",
+    "failedMsg": "Komeza wige hanyuma ongera ugerageze.",
+    "tryAgain": "Ongera Ugerageze",
+    "history": "Amateka",
+    "testHistory": "Amateka y'Ibizamini",
+    "back": "Inyuma",
+    "noTestsYet": "Nta kizamini wagize",
+    "startNewTest": "Tangira Ikizamini Gishya",
+    "failedStart": "Gutangira ikizamini byananiwe",
+    "failedSubmit": "Kohereza ikizamini byananiwe",
+    "failedLoadHistory": "Gupakira amateka byananiwe",
+    "correct": "Byemewe",
+    "wrong": "Mbi"
+  },
+  "about": {
+    "pageTitle": "Ibyerekeye - Road Rules",
+    "title": "Ibyerekeye Road Rules",
+    "subtitle": "Duha abagenzi ubumenyi bwo kugenda batekanye",
+    "para1": "Road Rules n'urubuga rw'imyigishirize rwagenewe gufasha abagenzi kumenya amategeko y'umuhanda, ibimenyetso, no kwitegura ikizamini cyo gutwara.",
+    "para2": "Urubuga rwacu rutanga ibizamini, amashusho, isomero ry'amategeko, n'ubufasha bwa AI kugirango imyigishirize ibe yoroshye kuri bose.",
+    "mission": {
+      "title": "Inshingano Zacu",
+      "desc": "Kugabanya impanuka z'umuhanda mu gutanga imyigishirize y'ubuhanga ku bagenzi."
+    },
+    "vision": {
+      "title": "Icyerekezo",
+      "desc": "Isi aho buri mutwari amenya neza amategeko y'umuhanda."
+    },
+    "values": {
+      "title": "Indangagaciro",
+      "desc": "Kuboneka, ukuri, no guteza imbere. Tubika ibikoresho byacu ku kigererwanyo."
+    },
+    "whoWeServe": {
+      "title": "Abo Dukorera",
+      "desc": "Abagenzi batoza, amashuri y'ugutwara, n'abashaka kuvugurura ubumenyi bwabo."
+    },
+    "hallOfFame": "Hall of Fame",
+    "hallOfFameSub": "Menya itsinda riri inyuma ya Road Rules",
+    "noTeam": "Nta banyamuryango bongewe",
+    "howWeHelpTitle": "Uko Dufasha",
+    "howWeHelpSub": "Ibyose ukeneye kumenya amategeko y'umuhanda no gutsinda ikizamini.",
+    "features": {
+      "roadRules": {
+        "title": "Amategeko Yuzuye",
+        "desc": "Soma amategeko y'umuhanda n'ibimenyetso byose."
+      },
+      "interactive": {
+        "title": "Myigishirize Ikoresha",
+        "desc": "Jijisha ubumenyi bwawe ukoresheje ibizamini."
+      },
+      "confidence": {
+        "title": "Tsinda Wizewe",
+        "desc": "Baka ubuhanga bwo gutsinda ikizamini."
+      },
+      "anywhere": {
+        "title": "Iga Aho Uri Hose",
+        "desc": "Iga ukoresheje terefone yawe n'iyo utari kuri interineti."
+      }
+    }
+  },
+  "profile": {
+    "pageTitle": "Umwirondoro - Road Rules",
+    "title": "Umwirondoro Wanjye",
+    "editProfile": "Hindura Umwirondoro",
+    "fullName": "Izina Ryose",
+    "phone": "Telefone",
+    "save": "Kubika",
+    "saving": "Irabika...",
+    "cancel": "Guhagarika",
+    "email": "Imeyili",
+    "joined": "Yinjiye {{date}}",
+    "notSet": "Ntibishyirwe",
+    "subscription": "Ubwishyu",
+    "activePlan": "Ikora - {{plan}}",
+    "daysRemaining": "Iminsi {{count}} isigaye",
+    "noSubscription": "Nta bwishyu bukora",
+    "viewPlans": "Reba Integuro z'Ubuhanga →",
+    "updateFailed": "Kuvugurura umwirondoro byananiwe"
+  },
+  "payment": {
+    "pageTitle": "Integuro z'Ubuhanga - Road Rules",
+    "title": "Hitamo Gahunda",
+    "subtitle": "Fungura uburyo bwose bwo gukora ibizamini, kureba amashusho, no kubona ibihamya",
+    "paymentMethod": "Uburyo bw'Ubwishyu",
+    "phoneNumber": "Nomero ya Telefone",
+    "phonePlaceholder": "urug. 256700000000",
+    "payBtn": "Isura UGX {{price}}",
+    "processing": "Irakora...",
+    "hasSubscription": "Ufite Ubwishyu Bukora",
+    "hasSubscriptionDesc": "Ufite uburenganzira kuri serivisi zose za Premium.",
+    "enterPhone": "Nyura mo nomero ya telefone yawe",
+    "paymentInitiated": "Ubwishyu bwatangiye! Reba telefone yawe.",
+    "paymentFailed": "Ubwishyu bwananiwe",
+    "methods": {
+      "mtn": { "name": "MTN MoMo", "desc": "Isura ukoresheje MTN Mobile Money" },
+      "airtel": { "name": "Airtel Money", "desc": "Isura ukoresheje Airtel Money" },
+      "visa": { "name": "Visa", "desc": "Isura ukoresheje Visa" },
+      "mastercard": { "name": "Mastercard", "desc": "Isura ukoresheje Mastercard" }
+    },
+    "plans": {
+      "monthly": { "name": "Kwezi", "period": "/ukwezi" },
+      "quarterly": { "name": "Gifta", "period": "/gifta" },
+      "yearly": { "name": "Umwaka", "period": "/umwaka" }
+    }
+  },
+  "results": {
+    "pageTitle": "Ibyavuye - Road Rules",
+    "title": "Ibyavuye Ubu",
+    "subtitle": "Kurikirana iterambere n'imikorere",
+    "quizResults": "Ibyavuye mu Bizamini",
+    "examResults": "Ibyavuye mu Ikizamini",
+    "quiz": "Ikizamini",
+    "exam": "Ikizamini",
+    "score": "Amanota",
+    "result": "Ibyavuye",
+    "date": "Itariki",
+    "passed": "Byatsinze",
+    "failed": "Byatsinzwe",
+    "noQuizResults": "Nta byavuye mu bizamini",
+    "noExamResults": "Nta byavuye mu kizamini",
+    "failedToLoad": "Gupakira ibyavuye byananiwe"
+  },
+  "certificate": {
+    "pageTitle": "Ibihembo Byanjye - Road Rules",
+    "title": "Ibihembo Byanjye",
+    "subtitle": "Ibihembo byabonywe mu kizamini",
+    "noCertificates": "Nta Bihembo Bihari",
+    "noCertificatesDesc": "Tsinda ikizamini cya Premium cyongere ubone icyemezo"
+  },
+  "leaderboard": {
+    "pageTitle": "Urutonde - Road Rules",
+    "title": "Urutonde rw'Abayobeje",
+    "subtitle": "Urutonde rw'abakoze neza",
+    "yourRank": "Urwego Rwawe",
+    "points": "amanota",
+    "noRankings": "Nta rutonde. Tangira gukora ibizamini!",
+    "rank": "Urwego",
+    "player": "Umutware",
+    "pointsHeader": "Amanota",
+    "quizzes": "Ibizamini",
+    "exams": "Ikizamini"
+  },
+  "dashboard": {
+    "welcome": "Murakaza Neza, {{name}}",
+    "brand": "Road Rules"
+  },
+  "documentReader": {
+    "backToLibrary": "Subira ku Isomero",
+    "viewImages": "Reba Ibishushanyo",
+    "download": "Gukuramo",
+    "cannotPreview": "Ntishobora kurebwa kuri interineti.",
+    "downloadFile": "Gukuramo",
+    "payToDownload": "Isura kugirango Ukuremo",
+    "payToDownloadDesc": "Isura kugirango ukuremo inyandiko",
+    "phoneNumber": "Nomero ya Telefone",
+    "amount": "Amafaranga",
+    "amountValue": "3,000 RWF",
+    "paymentMethod": "Uburyo bwo Kwishyura",
+    "mtnDesc": "Kwishyura ukoresheje MTN Rwanda Mobile Money",
+    "airtelDesc": "Kwishyura ukoresheje Airtel Money Rwanda",
+    "instructions": "Amabwiriza yo Kwishyura",
+    "mtnStep1": "1. Panga *182*8*1*1641965# kuri telefone yawe ya MTN",
+    "mtnStep2": "2. Injiza amafaranga 3,000 RWF",
+    "mtnStep3": "3. Emeza ubwishyu kuri MoMo menu",
+    "airtelStep1": "1. Jya kuri Airtel Money menu kuri telefone yawe",
+    "airtelStep2": "2. Hitamo 'Kwishyura' hanyuma winjize merchant code 1641965",
+    "airtelStep3": "3. Injiza amafaranga 3,000 RWF hanyuma wemeze ukoresheje PIN yawe",
+    "transactionRef": "Transaction Reference",
+    "verifyPayment": "Emeza Ubwishyu",
+    "processing": "Irakora...",
+    "enterPhone": "Nyura mo nomero ya telefone yawe",
+    "enterTxRef": "Nyura mo transaction reference",
+    "phonePlaceholder": "urug. 0788123456",
+    "txPlaceholder": "urug. OK-1234567890",
+    "enterPhoneError": "Nyura mo nomero ya telefone yawe",
+    "enterTxError": "Nyura mo transaction reference",
+    "loginToRead": "Nyura muri sisitemu kugirango usome inyandiko.",
+    "login": "Injira",
+    "downloadStarted": "Gukuramo byatangiye",
+    "accessCheckFailed": "Kugenzura uburenganzira byananiwe",
+    "purchaseFailed": "Ubwishyu bwananiwe",
+    "fullscreen": "Urereso rwose",
+    "exitFullscreen": "Sohoka mu rereso rwose",
+    "lightMode": "Umucyo",
+    "darkMode": "Umwijima"
+  },
+  "aiChat": {
+    "pageTitle": "AI Ifasha - Road Rules",
+    "title": "AI Learning Assistant",
+    "teacherMode": "Teacher Mode",
+    "subtitle": "Baza ibibazo, wigishwe — ntabwo uhabwa ibisubizo gusa. Nshakisha mu bitabo byawe.",
+    "newChat": "Ikiganiro Gishya",
+    "welcomeTitle": "Murakaza neza kuri AI Tutor",
+    "welcomeDesc": "Nsoma ibitabo byawe by'isomero kugirango nkwigishe neza amategeko y'umuhanda.",
+    "tryAsking": "Gerageza kubaza:",
+    "orAskDirectly": "Cyangwa baza ikibazo:",
+    "inputPlaceholder": "Baza ikibazo... (gerageza: sobanura, wigishe, kuki, rugero, bizamini)",
+    "send": "Ohereza",
+    "teaching": "Irigisha...",
+    "link": "Ihuza",
+    "errorMessage": "Urabe, habayemo ikosa. Ongera ugerageze.",
+    "quickActions": {
+      "explain": "Sobanura iri tegeko",
+      "explainDesc": "Ngira nsobanure iryo tegeko mu buryo burambuye",
+      "whyWrong": "Kuki option B ari mbi?",
+      "whyWrongDesc": "Sobanukirwa impamvu ibisubizo bitari byo ari mbi",
+      "example": "Mpa urugero",
+      "exampleDesc": "Reba urugero rw'ukuri",
+      "testMe": "Menya ubushobozi kuri iki gice",
+      "testMeDesc": "Jijisha ubumenyi ukoresheje ibibazo",
+      "safety": "Amabwiriza y'umutekano",
+      "safetyDesc": "Iga amabwiriza y'ingenzi y'umutekano",
+      "stepByStep": "Nwigishe buce buce",
+      "stepByStepDesc": "Iga igice gitangirira mu ntangiriro"
+    },
+    "quickQuestions": {
+      "redLight": "Umuraro utukura usobanura iki?",
+      "speedLimit": "Ni umuvuduko utemererwa hafi y'ishuri?",
+      "roundabout": "Wakoresha ryari roundabout?",
+      "documents": "Ni izihe nyandiko umutwari agomba gutwara?"
+    }
+  },
+  "aiSolve": {
+    "pageTitle": "AI Igisubizo - Road Rules",
+    "title": "AI Igisubizo",
+    "subtitle": "Baza ikibazo icyo ari cyo cyose uhabwe isomo ryuzuye",
+    "newQuestion": "Ikibazo Gishya",
+    "yourQuestion": "Ikibazo Kyawe",
+    "questionPlaceholder": "Andika ikibazo cyawe cy'amategeko y'umuhanda...",
+    "multipleChoice": "Iki ni ikibazo cy'options (A, B, C, D)",
+    "option": "Option {{letter}}",
+    "solveBtn": "Kemura & Wigisha",
+    "solving": "Irakemura...",
+    "fromBook": "Igisubizo giturutse mu Gitabo",
+    "generalKnowledge": "Igisubizo rusange",
+    "notFoundInBook": "Iki gice nticyabonetse mu bitabo byawe.",
+    "teachingExplanation": "Ibisobanuro",
+    "optionAnalysis": "Isesengura ry'Option",
+    "correct": "CYEMEWE",
+    "incorrect": "KIBI",
+    "ruleReference": "Itegeko",
+    "practicalExample": "Urugero",
+    "safetyTip": "Amabwiriza y'umutekano",
+    "keyPoints": "Ingingo Ngenderwaho",
+    "practiceQuestion": "Ikibazo cyo Kwitozo",
+    "sources": "Inkomoko:",
+    "exampleQuestions": "Ibibazo by'urugero",
+    "howItWorks": "Uko bikora",
+    "howItWorksDesc": "Andika ikibazo icyo ari cyo cyose hanyuma AI ikora:",
+    "howItWorksSteps": [
+      "Ishakisha mu bitabo byawe",
+      "Ikwigisha mu buryo burambuye",
+      "Isobanura impamvu buri gisubizo ari cyo cyangwa atari cyo",
+      "Itanga ingero n'amabwiriza y'umutekano"
+    ],
+    "uploadReminder": "Niba ikibazo giturutse mu gitabo waguriye, wibuke ko kigiye mu Isomero.",
+    "enterQuestion": "Nyura mo ikibazo",
+    "failedToSolve": "Gukemura ikibazo byananiwe"
+  },
+  "admin": {
+    "pageTitle": "Admin - Road Rules",
+    "title": "Ikibaho cy'Umuyobozi",
+    "stats": {
+      "users": "Abakoresha",
+      "quizzes": "Ibizamini",
+      "videos": "Amashusho",
+      "documents": "Inyandiko",
+      "payments": "Ubwishyu",
+      "certificates": "Ibihembo"
+    },
+    "links": {
+      "libraryUpload": "Gupakira inyandiko",
+      "libraryUploadDesc": "Pakiramo ukemiyi inyandiko",
+      "videoUpload": "Gupakira amashusho",
+      "videoUploadDesc": "Pakiramo ukemiyi amashusho",
+      "aiQuestions": "AI Ibibazo",
+      "aiQuestionsDesc": "Kora ibibazo ukoresheje AI",
+      "teamMembers": "Abanyamuryango",
+      "teamMembersDesc": "Kemiyi itsinda",
+      "userManagement": "Abakoresha",
+      "userManagementDesc": "Kemiyi abakoresha",
+      "questions": "Ibibazo",
+      "questionsDesc": "Kemiyi ibibazo",
+      "payments": "Ubwishyu",
+      "paymentsDesc": "Reba amateka y'ubwishyu",
+      "subscriptions": "Ubwishyu",
+      "subscriptionsDesc": "Kemiyi ubwishyu",
+      "certificates": "Ibihembo",
+      "certificatesDesc": "Tanga ibihembo",
+      "reports": "Raporo",
+      "reportsDesc": "Reba raporo"
+    }
+  },
+  "adminLibrary": {
+    "pageTitle": "Kemiyi Isomero - Admin",
+    "title": "Kemiyi Isomero",
+    "uploadTitle": "Gupakira Inyandiko",
+    "titleField": "Umutwe *",
+    "description": "Ibisobanuro",
+    "categoryId": "Category ID",
+    "free": "Ubuntu?",
+    "freeOption": "Ubuntu",
+    "premiumOption": "Premium",
+    "fileField": "Iyandiko (PDF, DOC, DOCX) *",
+    "uploadBtn": "Gupakira Inyandiko",
+    "uploading": "Irapakira...",
+    "allDocuments": "Inyandiko Zose",
+    "loading": "Irapakira...",
+    "noDocuments": "Nta nyandiko",
+    "titleColumn": "Umutwe",
+    "downloadsColumn": "Gukuramo",
+    "actionsColumn": "Ibikorwa",
+    "deleteConfirm": "Gusiba iyi nyandiko?",
+    "uploadSuccess": "Inyandiko yapakiwe",
+    "deleteSuccess": "Inyandiko isibwe",
+    "failedToLoad": "Gupakira inyandiko byananiwe",
+    "uploadFailed": "Gupakira byananiwe",
+    "deleteFailed": "Gusiba byananiwe"
+  },
+  "adminVideos": {
+    "pageTitle": "Kemiyi Amashusho - Admin",
+    "title": "Kemiyi Amashusho",
+    "uploadTitle": "Gupakira Amashusho",
+    "titleField": "Umutwe *",
+    "description": "Ibisobanuro",
+    "duration": "Uburebure",
+    "categoryId": "Category ID",
+    "free": "Ubuntu?",
+    "freeOption": "Ubuntu",
+    "premiumOption": "Premium",
+    "fileField": "Amashusho (MP4, MKV, AVI, MOV) *",
+    "uploadBtn": "Gupakira Amashusho",
+    "uploading": "Irapakira...",
+    "allVideos": "Amashusho Yose",
+    "loading": "Irapakira...",
+    "noVideos": "Nta mashusho",
+    "titleColumn": "Umutwe",
+    "viewsColumn": "Kureba",
+    "actionsColumn": "Ibikorwa",
+    "deleteConfirm": "Gusiba aya mashusho?",
+    "uploadSuccess": "Amashusho yapakiwe",
+    "deleteSuccess": "Amashusho asibwe",
+    "failedToLoad": "Gupakira amashusho byananiwe",
+    "uploadFailed": "Gupakira byananiwe",
+    "deleteFailed": "Gusiba byananiwe"
+  },
+  "adminAiQuestions": {
+    "pageTitle": "AI Igikoresho - Admin",
+    "title": "AI Igikoresho",
+    "refresh": "Vugurura",
+    "generateTitle": "Kora Ibibazo mu Gitabo",
+    "description": "Hitamo igitabo hanyuma ukoreshe AI gukora ibibazo by'options.",
+    "selectDocument": "Hitamo Inyandiko",
+    "loadingDocuments": "Gupakira inyandiko...",
+    "noDocuments": "Nta nyandiko zisanze.",
+    "uploadOne": "Pakira imwe",
+    "chooseDoc": "-- Hitamo inyandiko --",
+    "questionCount": "Umubare w'Ibibazo",
+    "questions": "ibibazo",
+    "preview": "Reba",
+    "generating": "Irakora...",
+    "generateAndSave": "Kora & Bika",
+    "generatingAndSaving": "Gukora & Kubika...",
+    "aiGenerating": "AI igikora ibibazo biva mu gitabo...",
+    "aiGeneratingWait": "Bishobora gutora isegonda 30-60",
+    "previewTitle": "Reba ({{count}} ibibazo)",
+    "saveAll": "Bika Byose",
+    "cancel": "Guhagarika",
+    "notSavedYet": "Ibi bibazo ntibikibitswe. Kanda \"Bika Byose\" kugirango ubiongeze.",
+    "questionsSaved": "Ibibazo Byabitswe!",
+    "savedCount": "Ibibazo {{count}} bishya byongewe.",
+    "willAppear": "Ibi bibazo bizagaragara mu bizamini by'ubuntu.",
+    "generateMore": "Kora Ibindi",
+    "tryFreeTest": "Gerageza Ikizamini",
+    "viewGenerated": "Reba ibibazo byakozwe",
+    "selectDocFirst": "Hitamo inyandiko mbere",
+    "generatedCount": "Byakozwe ibibazo {{count}}",
+    "aiGenerationFailed": "AI ntiyakoreye",
+    "selectPrompt": "Hitamo inyandiko hanyuma ukore Preview cyangwa Generate & Save"
+  },
+  "adminTeamMembers": {
+    "pageTitle": "Kemiyi Itsinda - Admin",
+    "title": "Abanyamuryango",
+    "addMember": "Ongeraho",
+    "editMember": "Hindura",
+    "addNewMember": "Ongeraho",
+    "name": "Izina *",
+    "role": "Umurimo *",
+    "rolePlaceholder": "urug. Founder, Instructor",
+    "description": "Ibisobanuro",
+    "displayOrder": "Urutonde",
+    "active": "Gikora",
+    "inactive": "Ntigikora",
+    "photo": "Ifoto",
+    "save": "Irabika...",
+    "update": "Vugurura",
+    "addMemberBtn": "Ongeraho",
+    "cancel": "Guhagarika",
+    "allMembers": "Abanyamuryango Bose",
+    "loading": "Irapakira...",
+    "noMembers": "Nta banyamuryango",
+    "photoColumn": "Ifoto",
+    "nameColumn": "Izina",
+    "roleColumn": "Umurimo",
+    "descriptionColumn": "Ibisobanuro",
+    "orderColumn": "Urutonde",
+    "statusColumn": "Imiterere",
+    "actionsColumn": "Ibikorwa",
+    "deleteConfirm": "Gusiba uyu munyamuryango?",
+    "nameRoleRequired": "Izina n'umurimo birakenewe",
+    "loadFailed": "Gupakira abanyamuryango byananiwe",
+    "updateSuccess": "Byavuguruwe",
+    "addSuccess": "Byongewe",
+    "deleteSuccess": "Byasibwe",
+    "deleteFailed": "Gusiba byananiwe",
+    "saveFailed": "Kubika byananiwe"
+  },
+  "pageNotFound": {
+    "title": "404",
+    "message": "Page ntabwo isanzwe",
+    "goHome": "Subira ahabanza"
+  }
+}

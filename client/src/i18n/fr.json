@@ -1,0 +1,830 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "noData": "Aucune donnée disponible",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "back": "Retour",
+    "submit": "Soumettre",
+    "send": "Envoyer",
+    "search": "Rechercher",
+    "all": "Tout",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "score": "Score",
+    "correct": "Correct",
+    "wrong": "Faux",
+    "total": "Total",
+    "passed": "Réussi",
+    "failed": "Échoué",
+    "yes": "Oui",
+    "no": "Non",
+    "saving": "Enregistrement...",
+    "uploading": "Téléchargement...",
+    "processing": "Traitement...",
+    "generating": "Génération...",
+    "preparing": "Préparation...",
+    "loggingIn": "Connexion...",
+    "creatingAccount": "Création du compte...",
+    "sending": "Envoi...",
+    "submitting": "Soumission...",
+    "solved": "Résolu",
+    "cancelled": "Annulé",
+    "notSet": "Non défini",
+    "notAvailable": "N/D",
+    "noDescription": "Aucune description disponible",
+    "signs": "Panneaux",
+    "minutes": "min",
+    "seconds": "s",
+    "points": "pts",
+    "downloads": "téléchargements",
+    "views": "vues",
+    "attempts": "tentatives",
+    "quizzes": "quiz",
+    "exams": "examens",
+    "found": "trouvés"
+  },
+  "nav": {
+    "brand": "Road Rules Academy",
+    "home": "Accueil",
+    "library": "Bibliothèque",
+    "videos": "Vidéos",
+    "about": "À propos",
+    "aiAssistant": "Assistant IA",
+    "contact": "Contact",
+    "dashboard": "Tableau de bord",
+    "profile": "Profil",
+    "logout": "Déconnexion",
+    "login": "Connexion",
+    "signUp": "S'inscrire",
+    "adminPanel": "Panneau Admin"
+  },
+  "footer": {
+    "brand": "Road Rules Academy",
+    "description": "Maîtrisez les règles de la route, les panneaux et préparez-vous à votre examen de conduite avec notre plateforme d'apprentissage complète.",
+    "quickLinks": "Liens rapides",
+    "resources": "Ressources",
+    "contact": "Contact",
+    "home": "Accueil",
+    "library": "Bibliothèque",
+    "videos": "Vidéos",
+    "aboutUs": "À propos",
+    "contactUs": "Contact",
+    "faq": "FAQ",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "location": "Kigali, Rwanda",
+    "email": "cyubahirotech@gmail.com",
+    "phone": "0791644613",
+    "copyright": "© {{year}} Road Rules Academy. Tous droits réservés.",
+    "useWhatsapp": "Utiliser WhatsApp"
+  },
+  "hero": {
+    "trustedBy": "Approuvé par 1 000+ étudiants",
+    "title": "Maîtrisez le Code de la Route &",
+    "titleAccent": "Réussissez votre Examen",
+    "subtitle": "Apprenez les panneaux, les règles et la conduite défensive avec des quiz interactifs, des vidéos et des ressources expertes.",
+    "getStarted": "Commencer Gratuitement",
+    "browseLibrary": "Parcourir la Bibliothèque",
+    "videoLessons": "Leçons Vidéo",
+    "quizQuestions": "Questions Quiz",
+    "activeStudents": "Étudiants Actifs"
+  },
+  "howWeHelp": {
+    "badge": "Ce que nous offrons",
+    "title": "Comment nous vous aidons",
+    "subtitle": "Tout ce dont vous avez besoin pour maîtriser le code de la route et réussir votre examen de conduite en toute confiance.",
+    "features": {
+      "roadRules": {
+        "title": "Règles complètes",
+        "description": "Accédez à tous les règlements de la route et panneaux avec des explications détaillées."
+      },
+      "interactive": {
+        "title": "Apprentissage interactif",
+        "description": "Entraînez-vous avec des quiz engageants et des scénarios réels."
+      },
+      "confidence": {
+        "title": "Réussissez en toute confiance",
+        "description": "Acquérez les compétences nécessaires pour réussir votre examen de conduite."
+      },
+      "anywhere": {
+        "title": "Apprenez partout",
+        "description": "Étudiez en déplacement avec notre plateforme mobile."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Tarifs",
+    "title": "Forfaits Premium",
+    "subtitle": "Accédez à tous les examens, vidéos et certificats",
+    "mostPopular": "Le plus populaire",
+    "bestValue": "Meilleur rapport qualité-prix",
+    "subscribeNow": "S'abonner",
+    "getStarted": "Commencer",
+    "plans": {
+      "monthly": {
+        "name": "Mensuel",
+        "period": "/mois",
+        "features": ["Accès complet aux examens", "Leçons vidéo", "Bibliothèque PDF", "Certificat sur réussite", "Classement"]
+      },
+      "quarterly": {
+        "name": "Trimestriel",
+        "period": "/trimestre",
+        "features": ["Tout du Mensuel", "Économisez 20%", "Support prioritaire", "Examens avancés"]
+      },
+      "yearly": {
+        "name": "Annuel",
+        "period": "/an",
+        "features": ["Tout du Trimestriel", "Économisez 33%", "Certificat papier", "Accès à vie"]
+      }
+    }
+  },
+  "statistics": {
+    "videoLessons": "Leçons Vidéo",
+    "quizQuestions": "Questions Quiz",
+    "roadSigns": "Panneaux",
+    "activeStudents": "Étudiants Actifs"
+  },
+  "testimonials": {
+    "badge": "Témoignages",
+    "title": "Ce que disent nos étudiants",
+    "subtitle": "Découvrez ce que les conducteurs disent de notre plateforme",
+    "testimonials": {
+      "sarah": {
+        "name": "Sarah K.",
+        "text": "Cette plateforme m'a aidée à réussir mon examen du premier coup ! Les quiz sont très réalistes.",
+        "role": "Élève conducteur"
+      },
+      "james": {
+        "name": "James M.",
+        "text": "Les vidéos et la bibliothèque de panneaux sont complètes. Je recommande vivement.",
+        "role": "Nouveau conducteur"
+      },
+      "peter": {
+        "name": "Peter O.",
+        "text": "J'adore le classement. Il me motive à continuer d'apprendre et d'améliorer mes scores.",
+        "role": "Utilisateur Premium"
+      }
+    }
+  },
+  "roadSigns": {
+    "badge": "Apprendre les panneaux",
+    "title": "Bibliothèque de panneaux",
+    "subtitle": "Apprenez tous les panneaux routiers avec des explications détaillées",
+    "browseFull": "Parcourir la bibliothèque",
+    "viewSignImages": "Voir les images",
+    "categories": {
+      "warning": {
+        "name": "Panneaux de danger",
+        "desc": "Danger à venir, prudence"
+      },
+      "regulatory": {
+        "name": "Panneaux réglementaires",
+        "desc": "Doivent être respectés"
+      },
+      "guide": {
+        "name": "Panneaux indicateurs",
+        "desc": "Directions et distances"
+      },
+      "information": {
+        "name": "Panneaux d'information",
+        "desc": "Services et équipements"
+      }
+    }
+  },
+  "certificateCard": {
+    "issued": "Délivré : {{date}}",
+    "expires": "Expire : {{date}}",
+    "download": "Télécharger",
+    "verify": "Vérifier"
+  },
+  "quizCard": {
+    "pass": "Réussite : {{score}}%",
+    "attempts": "{{count}} tentatives",
+    "startFree": "Commencer le quiz gratuit",
+    "premium": "Quiz Premium",
+    "timeLimit": "{{time}} min"
+  },
+  "login": {
+    "title": "Bon retour",
+    "subtitle": "Connectez-vous pour continuer à apprendre",
+    "email": "Email",
+    "password": "Mot de passe",
+    "loginBtn": "Connexion",
+    "loggingIn": "Connexion...",
+    "noAccount": "Pas de compte ?",
+    "signUp": "S'inscrire",
+    "pageTitle": "Connexion - Road Rules",
+    "fillFields": "Veuillez remplir tous les champs",
+    "loginFailed": "Échec de la connexion"
+  },
+  "register": {
+    "title": "Créer un compte",
+    "subtitle": "Commencez à apprendre le code de la route",
+    "fullName": "Nom complet *",
+    "email": "Email *",
+    "phone": "Téléphone",
+    "password": "Mot de passe *",
+    "confirmPassword": "Confirmer le mot de passe *",
+    "registerBtn": "Créer un compte",
+    "creatingAccount": "Création du compte...",
+    "hasAccount": "Déjà un compte ?",
+    "login": "Connexion",
+    "pageTitle": "Inscription - Road Rules",
+    "fillFields": "Veuillez remplir tous les champs",
+    "passwordLength": "Le mot de passe doit comporter au moins 6 caractères",
+    "passwordsMatch": "✅ Les mots de passe correspondent.",
+    "passwordsDoNotMatch": "❌ Les mots de passe ne correspondent pas.",
+    "checkUppercase": "Contient au moins une lettre majuscule (A–Z)",
+    "checkLowercase": "Contient au moins une lettre minuscule (a–z)",
+    "checkNumber": "Contient au moins un chiffre (0–9)",
+    "checkSpecial": "Contient au moins un caractère spécial",
+    "checkLength": "La longueur du mot de passe est entre 5 et 12 caractères",
+    "passwordStrength": "Force du mot de passe :",
+    "weak": "Faible",
+    "medium": "Moyen",
+    "strong": "Fort",
+    "registrationFailed": "Échec de l'inscription"
+  },
+  "contact": {
+    "pageTitle": "Contact - Road Rules",
+    "title": "Contactez-nous",
+    "subtitle": "Une question ? Nous aimerions avoir de vos nouvelles.",
+    "formTitle": "Envoyez-nous un message",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "sendBtn": "Envoyer le message",
+    "sending": "Envoi...",
+    "emailContact": "cyubahirotech@gmail.com",
+    "phoneContact": "+250791 644 613",
+    "location": "Kigali, Rwanda",
+    "fillFields": "Veuillez remplir tous les champs",
+    "sentSuccess": "Message envoyé ! Nous vous répondrons.",
+    "sendFailed": "Échec de l'envoi du message",
+    "whatsapp": "Utiliser WhatsApp"
+  },
+  "faq": {
+    "pageTitle": "FAQ - Road Rules",
+    "title": "Foire aux questions",
+    "subtitle": "Tout ce que vous devez savoir sur Road Rules",
+    "questions": {
+      "account": {
+        "q": "Comment créer un compte ?",
+        "a": "Cliquez sur \"S'inscrire\" en haut à droite, remplissez vos informations et soumettez."
+      },
+      "free": {
+        "q": "La plateforme est-elle gratuite ?",
+        "a": "Oui ! Nous proposons des quiz gratuits, des vidéos et l'accès à la bibliothèque."
+      },
+      "subscription": {
+        "q": "Comment acheter un abonnement ?",
+        "a": "Allez sur la page Tarifs, choisissez un forfait et effectuez le paiement."
+      },
+      "attempts": {
+        "q": "Combien de tentatives de quiz ?",
+        "a": "Les quiz gratuits permettent jusqu'à 3 tentatives."
+      },
+      "certificate": {
+        "q": "Comment obtenir mon certificat ?",
+        "a": "Réussissez un examen premium avec un score de 80% ou plus."
+      },
+      "materials": {
+        "q": "Puis-je télécharger des documents ?",
+        "a": "Les documents gratuits peuvent être téléchargés à tout moment."
+      },
+      "aiChat": {
+        "q": "Comment fonctionne le Chat IA ?",
+        "a": "L'assistant IA répond à vos questions en recherchant dans les documents de la bibliothèque."
+      },
+      "payment": {
+        "q": "Quels moyens de paiement ?",
+        "a": "Nous acceptons MTN MoMo, Airtel Money et Visa/Mastercard."
+      },
+      "resetPassword": {
+        "q": "Comment réinitialiser mon mot de passe ?",
+        "a": "Cliquez sur \"Mot de passe oublié\" sur la page de connexion."
+      },
+      "mobile": {
+        "q": "Puis-je utiliser la plateforme sur mobile ?",
+        "a": "Oui ! Notre plateforme est entièrement responsive."
+      }
+    }
+  },
+  "library": {
+    "pageTitle": "Bibliothèque - Road Rules",
+    "title": "Bibliothèque du code de la route",
+    "subtitle": "Lisez les documents et guides en ligne",
+    "searchPlaceholder": "Rechercher des documents...",
+    "noDocuments": "Aucun document trouvé",
+    "browseImages": "Parcourir les images",
+    "readOnline": "Lire en ligne",
+    "loginToRead": "Connectez-vous pour lire",
+    "visualGuide": "Guide visuel des panneaux",
+    "visualGuideDesc": "Voir tous les panneaux routiers du livre",
+    "downloadCount": "{{count}} téléchargements"
+  },
+  "bookImages": {
+    "pageTitle": "Images du livre - Bibliothèque",
+    "title": "Guide visuel des panneaux",
+    "subtitle": "Parcourez tous les panneaux routiers du guide",
+    "searchPlaceholder": "Rechercher des panneaux...",
+    "allSigns": "Tous les panneaux",
+    "signsFound": "{{count}} panneau trouvé",
+    "signsFound_plural": "{{count}} panneaux trouvés",
+    "noSigns": "Aucun panneau trouvé",
+    "description": "Description",
+    "referenceInBook": "Référence dans le livre",
+    "viewInLibrary": "Voir dans la bibliothèque"
+  },
+  "videos": {
+    "pageTitle": "Vidéos - Road Rules",
+    "title": "Leçons vidéo",
+    "subtitle": "Regardez des tutoriels vidéo sur le code de la route",
+    "searchPlaceholder": "Rechercher des vidéos...",
+    "noVideos": "Aucune vidéo trouvée"
+  },
+  "quiz": {
+    "pageTitle": "Quiz gratuit - Road Rules",
+    "title": "Quiz gratuits",
+    "subtitle": "Testez vos connaissances (3 tentatives chacun)",
+    "noQuizzes": "Aucun quiz disponible",
+    "congratulations": "Félicitations !",
+    "keepTrying": "Continuez d'essayer !",
+    "passed": "Vous avez réussi le quiz !",
+    "failed": "Vous n'avez pas réussi. Révisez et réessayez.",
+    "backToQuizzes": "Retour aux quiz",
+    "tryAgain": "Réessayer",
+    "aiThinking": "L'IA réfléchit...",
+    "aiAutoAnswer": "Réponse IA",
+    "submitAnswers": "Soumettre les réponses",
+    "submitting": "Soumission...",
+    "aiAnswered": "L'IA a répondu à {{count}} questions",
+    "aiFailed": "L'IA n'a pas pu répondre : {{message}}",
+    "pleaseAnswerAll": "Veuillez répondre à toutes les questions ({{count}} restantes)",
+    "cannotStartQuiz": "Impossible de démarrer le quiz",
+    "failedToLoad": "Échec du chargement des quiz",
+    "submissionFailed": "Échec de la soumission",
+    "question": "Question",
+    "of": "sur",
+    "attempt": "Tentative {{number}}"
+  },
+  "exam": {
+    "pageTitle": "Examens - Road Rules",
+    "title": "Examens Premium",
+    "subtitle": "Examens de certification complets",
+    "pass": "Réussite : {{score}}%",
+    "timeLimit": "{{time}} min",
+    "startExam": "Commencer l'examen",
+    "examPassed": "Examen réussi !",
+    "examFailed": "Examen échoué",
+    "backToExams": "Retour aux examens",
+    "aiThinking": "L'IA réfléchit...",
+    "aiAutoAnswer": "Réponse IA",
+    "submitAnswers": "Soumettre les réponses",
+    "submitting": "Soumission...",
+    "cannotStartExam": "Impossible de démarrer l'examen",
+    "failedToLoad": "Échec du chargement des examens",
+    "submissionFailed": "Échec de la soumission"
+  },
+  "freeTest": {
+    "pageTitle": "Test gratuit - Road Rules",
+    "title": "Test gratuit du code de la route",
+    "subtitle": "Testez vos connaissances avec des questions générées par IA",
+    "questionsPerTest": "20 questions par test",
+    "secondsPerQuestion": "60 secondes par question",
+    "passMark": "Note de passage : 12/20",
+    "differentQuestions": "Questions différentes à chaque fois",
+    "startTest": "Commencer le test",
+    "preparing": "Préparation...",
+    "viewPastResults": "Voir les résultats précédents",
+    "questionXofY": "Question {{x}} sur {{y}}",
+    "aiAnswerAll": "L'IA répond à tout",
+    "aiThinking": "L'IA réfléchit...",
+    "passed": "Réussi !",
+    "failed": "Échoué",
+    "passedMsg": "Félicitations ! Vous maîtrisez le code de la route.",
+    "failedMsg": "Continuez à étudier et réessayez.",
+    "tryAgain": "Réessayer",
+    "history": "Historique",
+    "testHistory": "Historique des tests",
+    "back": "Retour",
+    "noTestsYet": "Aucun test effectué",
+    "startNewTest": "Nouveau test",
+    "failedStart": "Échec du démarrage du test",
+    "failedSubmit": "Échec de la soumission du test",
+    "failedLoadHistory": "Échec du chargement de l'historique",
+    "correct": "Correct",
+    "wrong": "Faux"
+  },
+  "about": {
+    "pageTitle": "À propos - Road Rules",
+    "title": "À propos de Road Rules",
+    "subtitle": "Donner aux conducteurs les connaissances pour rouler en sécurité",
+    "para1": "Road Rules est une plateforme d'apprentissage en ligne dédiée à aider les conducteurs à maîtriser le code de la route.",
+    "para2": "Notre plateforme propose des quiz interactifs, des vidéos et une assistance IA.",
+    "mission": {
+      "title": "Notre mission",
+      "desc": "Réduire les accidents de la route grâce à une éducation accessible et de qualité."
+    },
+    "vision": {
+      "title": "Notre vision",
+      "desc": "Un monde où chaque conducteur est bien formé à la sécurité routière."
+    },
+    "values": {
+      "title": "Nos valeurs",
+      "desc": "Accessibilité, précision et amélioration continue."
+    },
+    "whoWeServe": {
+      "title": "Qui nous servons",
+      "desc": "Apprentis conducteurs, auto-écoles et toute personne souhaitant rafraîchir ses connaissances."
+    },
+    "hallOfFame": "Hall of Fame",
+    "hallOfFameSub": "Rencontrez l'équipe derrière Road Rules",
+    "noTeam": "Aucun membre d'équipe ajouté",
+    "howWeHelpTitle": "Comment nous vous aidons",
+    "howWeHelpSub": "Tout ce dont vous avez besoin pour maîtriser le code de la route.",
+    "features": {
+      "roadRules": {
+        "title": "Règles complètes",
+        "desc": "Accédez à tous les règlements et panneaux."
+      },
+      "interactive": {
+        "title": "Apprentissage interactif",
+        "desc": "Entraînez-vous avec des quiz."
+      },
+      "confidence": {
+        "title": "Réussissez confiant",
+        "desc": "Acquérez les compétences nécessaires."
+      },
+      "anywhere": {
+        "title": "Apprenez partout",
+        "desc": "Étudiez sur votre mobile."
+      }
+    }
+  },
+  "profile": {
+    "pageTitle": "Profil - Road Rules",
+    "title": "Mon profil",
+    "editProfile": "Modifier le profil",
+    "fullName": "Nom complet",
+    "phone": "Téléphone",
+    "save": "Enregistrer",
+    "saving": "Enregistrement...",
+    "cancel": "Annuler",
+    "email": "Email",
+    "joined": "Inscrit le {{date}}",
+    "notSet": "Non défini",
+    "subscription": "Abonnement",
+    "activePlan": "Actif - {{plan}}",
+    "daysRemaining": "{{count}} jours restants",
+    "noSubscription": "Aucun abonnement actif",
+    "viewPlans": "Voir les forfaits →",
+    "updateFailed": "Échec de la mise à jour du profil"
+  },
+  "payment": {
+    "pageTitle": "Forfaits Premium - Road Rules",
+    "title": "Choisissez votre forfait",
+    "subtitle": "Accédez à tous les examens, vidéos et certificats",
+    "paymentMethod": "Moyen de paiement",
+    "phoneNumber": "Numéro de téléphone",
+    "phonePlaceholder": "ex. 256700000000",
+    "payBtn": "Payer UGX {{price}}",
+    "processing": "Traitement...",
+    "hasSubscription": "Vous avez un abonnement actif",
+    "hasSubscriptionDesc": "Vous avez déjà accès à toutes les fonctionnalités premium.",
+    "enterPhone": "Veuillez entrer votre numéro de téléphone",
+    "paymentInitiated": "Paiement initié ! Vérifiez votre téléphone.",
+    "paymentFailed": "Échec du paiement",
+    "methods": {
+      "mtn": { "name": "MTN MoMo", "desc": "Payer avec MTN Mobile Money" },
+      "airtel": { "name": "Airtel Money", "desc": "Payer avec Airtel Money" },
+      "visa": { "name": "Visa", "desc": "Payer avec Visa" },
+      "mastercard": { "name": "Mastercard", "desc": "Payer avec Mastercard" }
+    },
+    "plans": {
+      "monthly": { "name": "Mensuel", "period": "/mois" },
+      "quarterly": { "name": "Trimestriel", "period": "/trimestre" },
+      "yearly": { "name": "Annuel", "period": "/an" }
+    }
+  },
+  "results": {
+    "pageTitle": "Résultats - Road Rules",
+    "title": "Mes résultats",
+    "subtitle": "Suivez votre progression",
+    "quizResults": "Résultats des quiz",
+    "examResults": "Résultats des examens",
+    "quiz": "Quiz",
+    "exam": "Examen",
+    "score": "Score",
+    "result": "Résultat",
+    "date": "Date",
+    "passed": "Réussi",
+    "failed": "Échoué",
+    "noQuizResults": "Aucun résultat de quiz",
+    "noExamResults": "Aucun résultat d'examen",
+    "failedToLoad": "Échec du chargement"
+  },
+  "certificate": {
+    "pageTitle": "Mes certificats - Road Rules",
+    "title": "Mes certificats",
+    "subtitle": "Certificats obtenus",
+    "noCertificates": "Aucun certificat",
+    "noCertificatesDesc": "Réussissez un examen premium pour obtenir votre certificat"
+  },
+  "leaderboard": {
+    "pageTitle": "Classement - Road Rules",
+    "title": "Classement",
+    "subtitle": "Meilleurs performers",
+    "yourRank": "Votre rang",
+    "points": "points",
+    "noRankings": "Pas encore de classement. Commencez les quiz !",
+    "rank": "Rang",
+    "player": "Joueur",
+    "pointsHeader": "Points",
+    "quizzes": "Quiz",
+    "exams": "Examens"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue, {{name}}",
+    "brand": "Road Rules"
+  },
+  "documentReader": {
+    "backToLibrary": "Retour à la bibliothèque",
+    "viewImages": "Voir les images",
+    "download": "Télécharger",
+    "cannotPreview": "Aperçu non disponible en ligne.",
+    "downloadFile": "Télécharger le fichier",
+    "payToDownload": "Payer pour télécharger",
+    "payToDownloadDesc": "Payer pour télécharger ce document",
+    "phoneNumber": "Numéro de téléphone",
+    "amount": "Montant",
+    "amountValue": "3 000 RWF",
+    "paymentMethod": "Méthode de paiement",
+    "mtnDesc": "Payer avec MTN Rwanda Mobile Money",
+    "airtelDesc": "Payer avec Airtel Money Rwanda",
+    "instructions": "Instructions de paiement",
+    "mtnStep1": "1. Composez *182*8*1*1641965# sur votre téléphone MTN",
+    "mtnStep2": "2. Entrez le montant 3 000 RWF",
+    "mtnStep3": "3. Confirmez le paiement sur le menu MoMo",
+    "airtelStep1": "1. Allez dans le menu Airtel Money",
+    "airtelStep2": "2. Sélectionnez 'Effectuer un paiement' et entrez le code marchand 1641965",
+    "airtelStep3": "3. Entrez le montant 3 000 RWF et confirmez avec votre code PIN",
+    "transactionRef": "Référence de transaction",
+    "verifyPayment": "Vérifier le paiement",
+    "processing": "Traitement...",
+    "enterPhone": "Entrez votre numéro de téléphone",
+    "enterTxRef": "Entrez la référence de transaction",
+    "phonePlaceholder": "ex. 0788123456",
+    "txPlaceholder": "ex. OK-1234567890",
+    "enterPhoneError": "Entrez votre numéro de téléphone",
+    "enterTxError": "Entrez la référence de transaction",
+    "loginToRead": "Veuillez vous connecter pour lire ce document en ligne.",
+    "login": "Connexion",
+    "downloadStarted": "Téléchargement commencé",
+    "accessCheckFailed": "Vérification d'accès échouée",
+    "purchaseFailed": "Échec de l'achat",
+    "fullscreen": "Plein écran",
+    "exitFullscreen": "Quitter le plein écran",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre"
+  },
+  "aiChat": {
+    "pageTitle": "Assistant IA - Road Rules",
+    "title": "Assistant IA",
+    "teacherMode": "Mode enseignant",
+    "subtitle": "Posez des questions, apprenez — pas seulement des réponses. Je cherche d'abord dans vos livres.",
+    "newChat": "Nouveau chat",
+    "welcomeTitle": "Bienvenue sur votre tuteur IA",
+    "welcomeDesc": "Je lis vos livres de bibliothèque pour vous enseigner correctement le code de la route.",
+    "tryAsking": "Essayez de me demander :",
+    "orAskDirectly": "Ou posez une question directement :",
+    "inputPlaceholder": "Posez une question... (essayez : explique, enseigne, pourquoi, exemple, test)",
+    "send": "Envoyer",
+    "teaching": "Enseignement...",
+    "link": "Lien",
+    "errorMessage": "Désolé, une erreur est survenue. Veuillez réessayer.",
+    "quickActions": {
+      "explain": "Explique cette règle",
+      "explainDesc": "Demandez-moi d'expliquer une règle en détail",
+      "whyWrong": "Pourquoi B est faux ?",
+      "whyWrongDesc": "Comprenez pourquoi les mauvaises réponses sont fausses",
+      "example": "Donne-moi un exemple",
+      "exampleDesc": "Voir des scénarios de conduite réels",
+      "testMe": "Teste-moi sur ce sujet",
+      "testMeDesc": "Entraînez-vous avec des quiz",
+      "safety": "Conseils de sécurité",
+      "safetyDesc": "Apprenez des conseils importants",
+      "stepByStep": "Apprends-moi étape par étape",
+      "stepByStepDesc": "Apprenez un sujet depuis le début"
+    },
+    "quickQuestions": {
+      "redLight": "Que signifie un feu rouge ?",
+      "speedLimit": "Quelle est la limite près d'une école ?",
+      "roundabout": "Quand utiliser un rond-point ?",
+      "documents": "Quels documents un conducteur doit-il avoir ?"
+    }
+  },
+  "aiSolve": {
+    "pageTitle": "Solveur IA - Road Rules",
+    "title": "Solveur IA",
+    "subtitle": "Posez une question et obtenez une leçon complète",
+    "newQuestion": "Nouvelle question",
+    "yourQuestion": "Votre question",
+    "questionPlaceholder": "Tapez votre question ici...",
+    "multipleChoice": "Question à choix multiples (A, B, C, D)",
+    "option": "Option {{letter}}",
+    "solveBtn": "Résoudre & enseigner",
+    "solving": "Résolution...",
+    "fromBook": "Réponse de votre livre",
+    "generalKnowledge": "Réponse générale",
+    "notFoundInBook": "Ce sujet n'a pas été trouvé dans vos livres.",
+    "teachingExplanation": "Explication",
+    "optionAnalysis": "Analyse des options",
+    "correct": "CORRECT",
+    "incorrect": "INCORRECT",
+    "ruleReference": "Référence",
+    "practicalExample": "Exemple pratique",
+    "safetyTip": "Conseil de sécurité",
+    "keyPoints": "Points clés",
+    "practiceQuestion": "Question d'entraînement",
+    "sources": "Sources :",
+    "exampleQuestions": "Exemples de questions",
+    "howItWorks": "Comment ça marche",
+    "howItWorksDesc": "L'IA va :",
+    "howItWorksSteps": [
+      "Chercher dans vos livres",
+      "Enseigner avec des explications",
+      "Expliquer pourquoi chaque option est correcte ou non",
+      "Donner des exemples et conseils"
+    ],
+    "uploadReminder": "Si votre question vient d'un livre, assurez-vous qu'il est dans la bibliothèque.",
+    "enterQuestion": "Veuillez entrer une question",
+    "failedToSolve": "Échec de la résolution"
+  },
+  "admin": {
+    "pageTitle": "Admin - Road Rules",
+    "title": "Tableau de bord admin",
+    "stats": {
+      "users": "Utilisateurs",
+      "quizzes": "Quiz",
+      "videos": "Vidéos",
+      "documents": "Documents",
+      "payments": "Paiements",
+      "certificates": "Certificats"
+    },
+    "links": {
+      "libraryUpload": "Bibliothèque",
+      "libraryUploadDesc": "Gérer les documents",
+      "videoUpload": "Vidéos",
+      "videoUploadDesc": "Gérer les vidéos",
+      "aiQuestions": "Questions IA",
+      "aiQuestionsDesc": "Générer des questions avec IA",
+      "teamMembers": "Équipe",
+      "teamMembersDesc": "Gérer l'équipe",
+      "userManagement": "Utilisateurs",
+      "userManagementDesc": "Gérer les utilisateurs",
+      "questions": "Questions",
+      "questionsDesc": "Gérer les questions",
+      "payments": "Paiements",
+      "paymentsDesc": "Voir l'historique",
+      "subscriptions": "Abonnements",
+      "subscriptionsDesc": "Gérer les abonnements",
+      "certificates": "Certificats",
+      "certificatesDesc": "Délivrer des certificats",
+      "reports": "Rapports",
+      "reportsDesc": "Voir les rapports"
+    }
+  },
+  "adminLibrary": {
+    "pageTitle": "Gérer la bibliothèque - Admin",
+    "title": "Gérer la bibliothèque",
+    "uploadTitle": "Télécharger un document",
+    "titleField": "Titre *",
+    "description": "Description",
+    "categoryId": "ID Catégorie",
+    "free": "Gratuit ?",
+    "freeOption": "Gratuit",
+    "premiumOption": "Premium",
+    "fileField": "Fichier (PDF, DOC, DOCX) *",
+    "uploadBtn": "Télécharger",
+    "uploading": "Téléchargement...",
+    "allDocuments": "Tous les documents",
+    "loading": "Chargement...",
+    "noDocuments": "Aucun document",
+    "titleColumn": "Titre",
+    "downloadsColumn": "Téléchargements",
+    "actionsColumn": "Actions",
+    "deleteConfirm": "Supprimer ce document ?",
+    "uploadSuccess": "Document téléchargé",
+    "deleteSuccess": "Document supprimé",
+    "failedToLoad": "Échec du chargement",
+    "uploadFailed": "Échec du téléchargement",
+    "deleteFailed": "Échec de la suppression"
+  },
+  "adminVideos": {
+    "pageTitle": "Gérer les vidéos - Admin",
+    "title": "Gérer les vidéos",
+    "uploadTitle": "Télécharger une vidéo",
+    "titleField": "Titre *",
+    "description": "Description",
+    "duration": "Durée (secondes)",
+    "categoryId": "ID Catégorie",
+    "free": "Gratuit ?",
+    "freeOption": "Gratuit",
+    "premiumOption": "Premium",
+    "fileField": "Vidéo (MP4, MKV, AVI, MOV) *",
+    "uploadBtn": "Télécharger",
+    "uploading": "Téléchargement...",
+    "allVideos": "Toutes les vidéos",
+    "loading": "Chargement...",
+    "noVideos": "Aucune vidéo",
+    "titleColumn": "Titre",
+    "viewsColumn": "Vues",
+    "actionsColumn": "Actions",
+    "deleteConfirm": "Supprimer cette vidéo ?",
+    "uploadSuccess": "Vidéo téléchargée",
+    "deleteSuccess": "Vidéo supprimée",
+    "failedToLoad": "Échec du chargement",
+    "uploadFailed": "Échec du téléchargement",
+    "deleteFailed": "Échec de la suppression"
+  },
+  "adminAiQuestions": {
+    "pageTitle": "Générateur IA - Admin",
+    "title": "Générateur IA de questions",
+    "refresh": "Actualiser",
+    "generateTitle": "Générer des questions depuis les livres",
+    "description": "Sélectionnez un livre et utilisez l'IA pour générer des questions automatiquement.",
+    "selectDocument": "Sélectionner un document",
+    "loadingDocuments": "Chargement...",
+    "noDocuments": "Aucun document trouvé.",
+    "uploadOne": "Téléchargez-en un",
+    "chooseDoc": "-- Choisir un document --",
+    "questionCount": "Nombre de questions",
+    "questions": "questions",
+    "preview": "Aperçu",
+    "generating": "Génération...",
+    "generateAndSave": "Générer & Enregistrer",
+    "generatingAndSaving": "Génération & Enregistrement...",
+    "aiGenerating": "L'IA génère des questions...",
+    "aiGeneratingWait": "Cela peut prendre 30 à 60 secondes",
+    "previewTitle": "Aperçu ({{count}} questions)",
+    "saveAll": "Tout enregistrer",
+    "cancel": "Annuler",
+    "notSavedYet": "Ces questions ne sont pas encore enregistrées.",
+    "questionsSaved": "Questions enregistrées !",
+    "savedCount": "{{count}} nouvelles questions ajoutées.",
+    "willAppear": "Ces questions apparaîtront dans les tests gratuits.",
+    "generateMore": "Générer plus",
+    "tryFreeTest": "Essayer un test gratuit",
+    "viewGenerated": "Voir les questions",
+    "selectDocFirst": "Sélectionnez d'abord un document",
+    "generatedCount": "{{count}} questions générées",
+    "aiGenerationFailed": "Échec de la génération IA",
+    "selectPrompt": "Sélectionnez un document et choisissez Aperçu ou Générer"
+  },
+  "adminTeamMembers": {
+    "pageTitle": "Gérer l'équipe - Admin",
+    "title": "Membres de l'équipe",
+    "addMember": "Ajouter",
+    "editMember": "Modifier",
+    "addNewMember": "Ajouter un membre",
+    "name": "Nom *",
+    "role": "Rôle *",
+    "rolePlaceholder": "ex. Fondateur, Instructeur",
+    "description": "Description",
+    "displayOrder": "Ordre",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "photo": "Photo",
+    "save": "Enregistrement...",
+    "update": "Mettre à jour",
+    "addMemberBtn": "Ajouter",
+    "cancel": "Annuler",
+    "allMembers": "Tous les membres",
+    "loading": "Chargement...",
+    "noMembers": "Aucun membre",
+    "photoColumn": "Photo",
+    "nameColumn": "Nom",
+    "roleColumn": "Rôle",
+    "descriptionColumn": "Description",
+    "orderColumn": "Ordre",
+    "statusColumn": "Statut",
+    "actionsColumn": "Actions",
+    "deleteConfirm": "Supprimer ce membre ?",
+    "nameRoleRequired": "Nom et rôle requis",
+    "loadFailed": "Échec du chargement",
+    "updateSuccess": "Membre mis à jour",
+    "addSuccess": "Membre ajouté",
+    "deleteSuccess": "Membre supprimé",
+    "deleteFailed": "Échec de la suppression",
+    "saveFailed": "Échec de l'enregistrement"
+  },
+  "pageNotFound": {
+    "title": "404",
+    "message": "Page non trouvée",
+    "goHome": "Accueil"
+  }
+}

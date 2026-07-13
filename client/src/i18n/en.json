@@ -1,0 +1,842 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "noData": "No data available",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "submit": "Submit",
+    "send": "Send",
+    "search": "Search",
+    "all": "All",
+    "active": "Active",
+    "inactive": "Inactive",
+    "score": "Score",
+    "correct": "Correct",
+    "wrong": "Wrong",
+    "total": "Total",
+    "passed": "Passed",
+    "failed": "Failed",
+    "yes": "Yes",
+    "no": "No",
+    "saving": "Saving...",
+    "uploading": "Uploading...",
+    "processing": "Processing...",
+    "generating": "Generating...",
+    "preparing": "Preparing...",
+    "loggingIn": "Logging in...",
+    "creatingAccount": "Creating account...",
+    "sending": "Sending...",
+    "submitting": "Submitting...",
+    "solved": "Solved",
+    "cancelled": "Cancelled",
+    "notSet": "Not set",
+    "notAvailable": "N/A",
+    "noDescription": "No description available",
+    "signs": "Signs",
+    "minutes": "min",
+    "seconds": "s",
+    "points": "pts",
+    "downloads": "downloads",
+    "views": "views",
+    "attempts": "attempts",
+    "quizzes": "quizzes",
+    "exams": "exams",
+    "found": "found"
+  },
+  "nav": {
+    "brand": "Road Rules Academy",
+    "home": "Home",
+    "library": "Library",
+    "videos": "Videos",
+    "about": "About",
+    "aiAssistant": "AI Assistant",
+    "contact": "Contact",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login",
+    "signUp": "Sign Up",
+    "adminPanel": "Admin Panel"
+  },
+  "footer": {
+    "brand": "Road Rules Academy",
+    "description": "Master road traffic rules, signs, and prepare for your driving exam with our comprehensive online learning platform.",
+    "quickLinks": "Quick Links",
+    "resources": "Resources",
+    "contact": "Contact",
+    "home": "Home",
+    "library": "Library",
+    "videos": "Videos",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us",
+    "faq": "FAQ",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "location": "Kigali, Rwanda",
+    "email": "cyubahirotech@gmail.com",
+    "phone": "0791644613",
+    "copyright": "© {{year}} Road Rules Academy. All rights reserved.",
+    "useWhatsapp": "Use WhatsApp"
+  },
+  "hero": {
+    "trustedBy": "Trusted by 1,000+ students",
+    "title": "Master Road Rules &",
+    "titleAccent": "Pass Your Exam",
+    "subtitle": "Learn traffic signs, road rules, and defensive driving with interactive quizzes, video lessons, and expert resources.",
+    "getStarted": "Get Started Free",
+    "browseLibrary": "Browse Library",
+    "videoLessons": "Video Lessons",
+    "quizQuestions": "Quiz Questions",
+    "activeStudents": "Active Students"
+  },
+  "howWeHelp": {
+    "badge": "What We Offer",
+    "title": "How We Help You",
+    "subtitle": "Everything you need to master road rules and pass your driving test with confidence.",
+    "features": {
+      "roadRules": {
+        "title": "Comprehensive Road Rules",
+        "description": "Access complete traffic regulations and road signs with detailed explanations in Kinyarwanda, English, and French."
+      },
+      "interactive": {
+        "title": "Interactive Learning",
+        "description": "Practice with engaging quizzes and real-world scenarios to test your knowledge and track your progress."
+      },
+      "confidence": {
+        "title": "Pass with Confidence",
+        "description": "Build the skills and confidence needed to pass your driving test and become a responsible driver."
+      },
+      "anywhere": {
+        "title": "Learn Anywhere",
+        "description": "Study on-the-go with our mobile app, featuring offline access and personalized learning that adapts to your pace."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "Premium Plans",
+    "subtitle": "Unlock full access to exams, videos, and certificates",
+    "mostPopular": "Most Popular",
+    "bestValue": "Best Value",
+    "subscribeNow": "Subscribe Now",
+    "getStarted": "Get Started",
+    "plans": {
+      "monthly": {
+        "name": "Monthly",
+        "period": "/month",
+        "features": ["Full exam access", "Video lessons", "PDF library", "Certificate on pass", "Leaderboard ranking"]
+      },
+      "quarterly": {
+        "name": "Quarterly",
+        "period": "/quarter",
+        "features": ["Everything in Monthly", "Save 20%", "Priority support", "Advanced exams"]
+      },
+      "yearly": {
+        "name": "Yearly",
+        "period": "/year",
+        "features": ["Everything in Quarterly", "Save 33%", "Certificate hard copy", "Lifetime access"]
+      }
+    }
+  },
+  "statistics": {
+    "videoLessons": "Video Lessons",
+    "quizQuestions": "Quiz Questions",
+    "roadSigns": "Road Signs",
+    "activeStudents": "Active Students"
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What Our Students Say",
+    "subtitle": "Hear from drivers who have used our platform to master road rules",
+    "testimonials": {
+      "sarah": {
+        "name": "Sarah K.",
+        "text": "This platform helped me pass my driving test on the first try! The quizzes are very realistic and the video lessons made everything so clear.",
+        "role": "Student Driver"
+      },
+      "james": {
+        "name": "James M.",
+        "text": "The video lessons and road sign library are comprehensive. Highly recommended for new drivers. I feel confident behind the wheel now.",
+        "role": "New Driver"
+      },
+      "peter": {
+        "name": "Peter O.",
+        "text": "I love the leaderboard feature. It motivates me to keep learning and improving my scores. The premium subscription is totally worth it.",
+        "role": "Premium User"
+      }
+    }
+  },
+  "roadSigns": {
+    "badge": "Learn Signs",
+    "title": "Road Signs Library",
+    "subtitle": "Learn all road signs with detailed explanations",
+    "browseFull": "Browse Full Library",
+    "viewSignImages": "View Sign Images",
+    "categories": {
+      "warning": {
+        "name": "Warning Signs",
+        "desc": "Hazard ahead, proceed with caution"
+      },
+      "regulatory": {
+        "name": "Regulatory Signs",
+        "desc": "Must obey these traffic laws"
+      },
+      "guide": {
+        "name": "Guide Signs",
+        "desc": "Directions and mileage info"
+      },
+      "information": {
+        "name": "Information Signs",
+        "desc": "Services and facilities ahead"
+      }
+    }
+  },
+  "certificateCard": {
+    "issued": "Issued: {{date}}",
+    "expires": "Expires: {{date}}",
+    "download": "Download",
+    "verify": "Verify"
+  },
+  "quizCard": {
+    "pass": "Pass: {{score}}%",
+    "attempts": "{{count}} attempts",
+    "startFree": "Start Free Quiz",
+    "premium": "Premium Quiz",
+    "timeLimit": "{{time}} min"
+  },
+  "login": {
+    "title": "Welcome Back",
+    "subtitle": "Login to continue learning",
+    "email": "Email",
+    "password": "Password",
+    "loginBtn": "Login",
+    "loggingIn": "Logging in...",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "pageTitle": "Login - Road Rules",
+    "fillFields": "Please fill in all fields",
+    "loginFailed": "Login failed"
+  },
+  "register": {
+    "title": "Create Account",
+    "subtitle": "Start learning road rules today",
+    "fullName": "Full Name *",
+    "email": "Email *",
+    "phone": "Phone",
+    "password": "Password *",
+    "confirmPassword": "Confirm Password *",
+    "registerBtn": "Create Account",
+    "creatingAccount": "Creating account...",
+    "hasAccount": "Already have an account?",
+    "login": "Login",
+    "pageTitle": "Register - Road Rules",
+    "fillFields": "Please fill in all required fields",
+    "passwordLength": "Password must be at least 6 characters",
+    "passwordsMatch": "✅ Passwords match.",
+    "passwordsDoNotMatch": "❌ Passwords do not match.",
+    "checkUppercase": "Contains at least one uppercase letter (A–Z)",
+    "checkLowercase": "Contains at least one lowercase letter (a–z)",
+    "checkNumber": "Contains at least one number (0–9)",
+    "checkSpecial": "Contains at least one special character",
+    "checkLength": "Password length is between 5 and 12 characters",
+    "passwordStrength": "Password strength:",
+    "weak": "Weak",
+    "medium": "Medium",
+    "strong": "Strong",
+    "registrationFailed": "Registration failed"
+  },
+  "contact": {
+    "pageTitle": "Contact Us - Road Rules",
+    "title": "Contact Us",
+    "subtitle": "Have a question? We'd love to hear from you.",
+    "formTitle": "Send us a message",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "sendBtn": "Send Message",
+    "sending": "Sending...",
+    "emailContact": "cyubahirotech@gmail.com",
+    "phoneContact": "+250791 644 613",
+    "location": "Kigali, Rwanda",
+    "fillFields": "Please fill in all fields",
+    "sentSuccess": "Message sent! We will get back to you.",
+    "sendFailed": "Failed to send message",
+    "whatsapp": "Use WhatsApp"
+  },
+  "faq": {
+    "pageTitle": "FAQ - Road Rules",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Road Rules",
+    "questions": {
+      "account": {
+        "q": "How do I create an account?",
+        "a": "Click the \"Sign Up\" button on the top right corner, fill in your details (full name, email, and password), and submit. You will receive a confirmation email to verify your account."
+      },
+      "free": {
+        "q": "Is the platform free to use?",
+        "a": "Yes! We offer free quizzes, video lessons, and access to our road signs library. Premium features like certification exams, PDF downloads, and advanced analytics require a subscription or one-time payment."
+      },
+      "subscription": {
+        "q": "How do I purchase a subscription?",
+        "a": "Go to the Pricing page, choose a plan (Monthly, Quarterly, or Yearly), and complete payment via MTN MoMo, Airtel Money, or Visa/Mastercard. Your subscription activates immediately after successful payment."
+      },
+      "attempts": {
+        "q": "How many quiz attempts do I get?",
+        "a": "Free quizzes allow up to 3 attempts per quiz. Premium exams have unlimited attempts during your subscription period."
+      },
+      "certificate": {
+        "q": "How do I get my certificate?",
+        "a": "Pass a premium certification exam with a score of 80% or higher. Your certificate will be available for download in PDF format from your dashboard."
+      },
+      "materials": {
+        "q": "Can I download study materials?",
+        "a": "Free documents can be downloaded anytime. Premium documents require either an active subscription or a one-time payment of 2,800 FRW per document."
+      },
+      "aiChat": {
+        "q": "How does the AI Chat work?",
+        "a": "The AI Assistant can answer your road rules questions by searching through the library documents and question database. It provides answers with explanations in both Kinyarwanda and English."
+      },
+      "payment": {
+        "q": "What payment methods are accepted?",
+        "a": "We accept MTN MoMo, Airtel Money, and Visa/Mastercard. All payments are processed securely through our platform."
+      },
+      "resetPassword": {
+        "q": "How do I reset my password?",
+        "a": "Click \"Forgot Password\" on the login page, enter your registered email, and follow the instructions sent to your inbox."
+      },
+      "mobile": {
+        "q": "Can I use the platform on mobile?",
+        "a": "Yes! Our platform is fully responsive and works on all devices. You can study on-the-go using your smartphone or tablet."
+      }
+    }
+  },
+  "library": {
+    "pageTitle": "Library - Road Rules",
+    "title": "Road Rules Library",
+    "subtitle": "Read study materials and road sign guides online",
+    "searchPlaceholder": "Search documents...",
+    "noDocuments": "No documents found",
+    "browseImages": "Browse Images",
+    "readOnline": "Read Online",
+    "loginToRead": "Login to Read",
+    "visualGuide": "Road Signs Visual Guide",
+    "visualGuideDesc": "View all road sign images from the book as they appear in the library",
+    "downloadCount": "{{count}} downloads"
+  },
+  "bookImages": {
+    "pageTitle": "Book Images - Road Signs Library",
+    "title": "Road Signs Visual Guide",
+    "subtitle": "Browse all road sign images from the Road Rules Guide as they appear in the book",
+    "searchPlaceholder": "Search road signs...",
+    "allSigns": "All Signs",
+    "signsFound": "{{count}} sign found",
+    "signsFound_plural": "{{count}} signs found",
+    "noSigns": "No road signs match your search",
+    "description": "Description",
+    "referenceInBook": "Reference in Book",
+    "viewInLibrary": "View in Library"
+  },
+  "videos": {
+    "pageTitle": "Videos - Road Rules",
+    "title": "Video Lessons",
+    "subtitle": "Watch video tutorials on road rules and signs",
+    "searchPlaceholder": "Search videos...",
+    "noVideos": "No videos found"
+  },
+  "quiz": {
+    "pageTitle": "Free Quiz - Road Rules",
+    "title": "Free Quizzes",
+    "subtitle": "Test your knowledge with our free quizzes (3 attempts each)",
+    "noQuizzes": "No quizzes available yet",
+    "congratulations": "Congratulations!",
+    "keepTrying": "Keep Trying!",
+    "passed": "You passed the quiz!",
+    "failed": "You did not pass. Review and try again.",
+    "backToQuizzes": "Back to Quizzes",
+    "tryAgain": "Try Again",
+    "aiThinking": "AI Thinking...",
+    "aiAutoAnswer": "AI Auto-Answer",
+    "submitAnswers": "Submit Answers",
+    "submitting": "Submitting...",
+    "aiAnswered": "AI answered {{count}} questions",
+    "aiFailed": "AI failed to answer: {{message}}",
+    "pleaseAnswerAll": "Please answer all questions ({{count}} remaining)",
+    "cannotStartQuiz": "Cannot start quiz",
+    "failedToLoad": "Failed to load quizzes",
+    "submissionFailed": "Submission failed",
+    "question": "Question",
+    "of": "of",
+    "attempt": "Attempt {{number}}"
+  },
+  "exam": {
+    "pageTitle": "Exams - Road Rules",
+    "title": "Premium Exams",
+    "subtitle": "Full certification exams with detailed results",
+    "pass": "Pass: {{score}}%",
+    "timeLimit": "{{time}} min",
+    "startExam": "Start Exam",
+    "examPassed": "Exam Passed!",
+    "examFailed": "Exam Failed",
+    "backToExams": "Back to Exams",
+    "aiThinking": "AI Thinking...",
+    "aiAutoAnswer": "AI Auto-Answer",
+    "submitAnswers": "Submit Answers",
+    "submitting": "Submitting...",
+    "cannotStartExam": "Cannot start exam",
+    "failedToLoad": "Failed to load exams",
+    "submissionFailed": "Submission failed"
+  },
+  "freeTest": {
+    "pageTitle": "Free Test - Road Rules",
+    "title": "Road Rules Free Test",
+    "subtitle": "Test your knowledge with AI-generated questions from the book",
+    "questionsPerTest": "20 questions per test",
+    "secondsPerQuestion": "60 seconds per question",
+    "passMark": "Pass mark: 12/20",
+    "differentQuestions": "Different questions each time",
+    "startTest": "Start Test",
+    "preparing": "Preparing...",
+    "viewPastResults": "View past results",
+    "questionXofY": "Question {{x}} of {{y}}",
+    "aiAnswerAll": "AI Answer All",
+    "aiThinking": "AI Thinking...",
+    "passed": "Passed!",
+    "failed": "Failed",
+    "passedMsg": "Congratulations! You know the road rules well.",
+    "failedMsg": "Keep studying and try again.",
+    "tryAgain": "Try Again",
+    "history": "History",
+    "testHistory": "Test History",
+    "back": "Back",
+    "noTestsYet": "No tests taken yet",
+    "startNewTest": "Start New Test",
+    "failedStart": "Failed to start test",
+    "failedSubmit": "Failed to submit test",
+    "failedLoadHistory": "Failed to load history",
+    "correct": "Correct",
+    "wrong": "Wrong"
+  },
+  "about": {
+    "pageTitle": "About Us - Road Rules",
+    "title": "About Road Rules",
+    "subtitle": "Empowering drivers with the knowledge to stay safe on the road",
+    "para1": "Road Rules is an online learning platform dedicated to helping drivers master road traffic rules, recognize traffic signs, and prepare for their driving exams. We believe that safe driving starts with quality education.",
+    "para2": "Our platform offers interactive quizzes, video lessons, a comprehensive library of road rules, and AI-powered assistance to make learning accessible and effective for everyone.",
+    "mission": {
+      "title": "Our Mission",
+      "desc": "To reduce road accidents by providing accessible, high-quality driver education that prepares individuals for safe and responsible driving."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "desc": "A world where every driver is well-educated on road safety, leading to safer roads and fewer traffic incidents across communities."
+    },
+    "values": {
+      "title": "Our Values",
+      "desc": "Accessibility, accuracy, and continuous improvement. We ensure our content is up-to-date with the latest traffic regulations and accessible to all learners."
+    },
+    "whoWeServe": {
+      "title": "Who We Serve",
+      "desc": "Learner drivers, driving schools, and anyone looking to refresh their knowledge of road traffic rules and safe driving practices."
+    },
+    "hallOfFame": "Hall of Fame",
+    "hallOfFameSub": "Meet the team behind Road Rules",
+    "noTeam": "No team members added yet",
+    "howWeHelpTitle": "How We Help You",
+    "howWeHelpSub": "Everything you need to master road rules and pass your driving test with confidence.",
+    "features": {
+      "roadRules": {
+        "title": "Comprehensive Road Rules",
+        "desc": "Access complete traffic regulations and road signs with detailed explanations in Kinyarwanda, English, and French."
+      },
+      "interactive": {
+        "title": "Interactive Learning",
+        "desc": "Practice with engaging quizzes and real-world scenarios to test your knowledge and track your progress."
+      },
+      "confidence": {
+        "title": "Pass with Confidence",
+        "desc": "Build the skills and confidence needed to pass your driving test and become a responsible driver."
+      },
+      "anywhere": {
+        "title": "Learn Anywhere",
+        "desc": "Study on-the-go with our mobile app, featuring offline access and personalized learning that adapts to your pace."
+      }
+    }
+  },
+  "profile": {
+    "pageTitle": "Profile - Road Rules",
+    "title": "My Profile",
+    "editProfile": "Edit Profile",
+    "fullName": "Full Name",
+    "phone": "Phone",
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "email": "Email",
+    "joined": "Joined {{date}}",
+    "notSet": "Not set",
+    "subscription": "Subscription",
+    "activePlan": "Active - {{plan}}",
+    "daysRemaining": "{{count}} days remaining",
+    "noSubscription": "No active subscription",
+    "viewPlans": "View Premium Plans →",
+    "updateFailed": "Failed to update profile"
+  },
+  "payment": {
+    "pageTitle": "Premium Plans - Road Rules",
+    "title": "Choose Your Plan",
+    "subtitle": "Unlock full access to exams, videos, and certificates",
+    "paymentMethod": "Payment Method",
+    "phoneNumber": "Phone Number",
+    "phonePlaceholder": "e.g. 256700000000",
+    "payBtn": "Pay UGX {{price}}",
+    "processing": "Processing...",
+    "hasSubscription": "You Have an Active Subscription",
+    "hasSubscriptionDesc": "You already have access to all premium features.",
+    "enterPhone": "Please enter your phone number",
+    "paymentInitiated": "Payment initiated! Please check your phone to confirm.",
+    "paymentFailed": "Payment failed",
+    "methods": {
+      "mtn": {
+        "name": "MTN MoMo",
+        "desc": "Pay with MTN Mobile Money"
+      },
+      "airtel": {
+        "name": "Airtel Money",
+        "desc": "Pay with Airtel Money"
+      },
+      "visa": {
+        "name": "Visa",
+        "desc": "Pay with Visa card"
+      },
+      "mastercard": {
+        "name": "Mastercard",
+        "desc": "Pay with Mastercard"
+      }
+    },
+    "plans": {
+      "monthly": { "name": "Monthly", "period": "/month" },
+      "quarterly": { "name": "Quarterly", "period": "/quarter" },
+      "yearly": { "name": "Yearly", "period": "/year" }
+    }
+  },
+  "results": {
+    "pageTitle": "Results - Road Rules",
+    "title": "My Results",
+    "subtitle": "Track your progress and performance",
+    "quizResults": "Quiz Results",
+    "examResults": "Exam Results",
+    "quiz": "Quiz",
+    "exam": "Exam",
+    "score": "Score",
+    "result": "Result",
+    "date": "Date",
+    "passed": "Passed",
+    "failed": "Failed",
+    "noQuizResults": "No quiz results yet",
+    "noExamResults": "No exam results yet",
+    "failedToLoad": "Failed to load results"
+  },
+  "certificate": {
+    "pageTitle": "My Certificates - Road Rules",
+    "title": "My Certificates",
+    "subtitle": "Certificates earned from passed exams",
+    "noCertificates": "No Certificates Yet",
+    "noCertificatesDesc": "Pass a premium exam to earn your certificate"
+  },
+  "leaderboard": {
+    "pageTitle": "Leaderboard - Road Rules",
+    "title": "Leaderboard",
+    "subtitle": "Top performers ranking",
+    "yourRank": "Your Rank",
+    "points": "points",
+    "noRankings": "No rankings yet. Start taking quizzes!",
+    "rank": "Rank",
+    "player": "Player",
+    "pointsHeader": "Points",
+    "quizzes": "Quizzes",
+    "exams": "Exams"
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}",
+    "brand": "Road Rules"
+  },
+  "documentReader": {
+    "backToLibrary": "Back to Library",
+    "viewImages": "View Images",
+    "download": "Download",
+    "cannotPreview": "Cannot preview this file online.",
+    "downloadFile": "Download File",
+    "payToDownload": "Pay to Download",
+    "payToDownloadDesc": "Pay to download and keep this document",
+    "phoneNumber": "Phone Number",
+    "amount": "Amount",
+    "amountValue": "3,000 RWF",
+    "paymentMethod": "Payment Method",
+    "mtnDesc": "Pay using MTN Rwanda Mobile Money",
+    "airtelDesc": "Pay using Airtel Money Rwanda",
+    "instructions": "Payment Instructions",
+    "mtnStep1": "1. Dial *182*8*1*1641965# on your MTN phone",
+    "mtnStep2": "2. Enter amount 3,000 RWF",
+    "mtnStep3": "3. Confirm payment on the MoMo menu",
+    "airtelStep1": "1. Go to Airtel Money menu on your phone",
+    "airtelStep2": "2. Select 'Make Payment' and enter merchant code 1641965",
+    "airtelStep3": "3. Enter amount 3,000 RWF and confirm with your PIN",
+    "transactionRef": "Transaction Reference",
+    "verifyPayment": "Verify Payment",
+    "processing": "Processing...",
+    "enterPhone": "Enter your phone number",
+    "enterTxRef": "Enter the transaction reference from your USSD payment",
+    "phonePlaceholder": "e.g. 0788123456",
+    "txPlaceholder": "e.g. OK-1234567890",
+    "enterPhoneError": "Enter your phone number",
+    "enterTxError": "Enter the transaction reference from your USSD payment",
+    "loginToRead": "Please log in to read this document online.",
+    "login": "Log In",
+    "downloadStarted": "Download started",
+    "accessCheckFailed": "Access check failed",
+    "purchaseFailed": "Purchase failed",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "lightMode": "Light mode",
+    "darkMode": "Dark mode"
+  },
+  "aiChat": {
+    "pageTitle": "AI Learning Assistant - Road Rules",
+    "title": "AI Learning Assistant",
+    "teacherMode": "Teacher Mode",
+    "subtitle": "Ask questions, get taught — not just answered. I search your books first.",
+    "newChat": "New Chat",
+    "welcomeTitle": "Welcome to your AI Tutor",
+    "welcomeDesc": "I read your library books so I can teach you road rules properly. Ask me anything — I'll explain like an instructor, not just give answers.",
+    "tryAsking": "Try asking me to:",
+    "orAskDirectly": "Or ask a question directly:",
+    "inputPlaceholder": "Ask about road rules... (try: explain, teach me, why is, example, test me)",
+    "send": "Send",
+    "teaching": "Teaching...",
+    "link": "Link",
+    "errorMessage": "Sorry, I encountered an error. Please try again.",
+    "quickActions": {
+      "explain": "Explain this rule",
+      "explainDesc": "Ask me to explain any road rule in detail",
+      "whyWrong": "Why is option B wrong?",
+      "whyWrongDesc": "Understand why incorrect answers are wrong",
+      "example": "Give me an example",
+      "exampleDesc": "See real-world driving scenarios",
+      "testMe": "Test me on this topic",
+      "testMeDesc": "Practice with quiz questions",
+      "safety": "Safety tips",
+      "safetyDesc": "Learn important safety advice",
+      "stepByStep": "Teach me step by step",
+      "stepByStepDesc": "Learn a topic from the beginning"
+    },
+    "quickQuestions": {
+      "redLight": "What does a red traffic light mean?",
+      "speedLimit": "What is the speed limit in a school zone?",
+      "roundabout": "When should you use a roundabout?",
+      "documents": "What documents must a driver carry?"
+    }
+  },
+  "aiSolve": {
+    "pageTitle": "AI Question Solver - Road Rules",
+    "title": "AI Question Solver",
+    "subtitle": "Ask any road rules question and get a complete lesson",
+    "newQuestion": "New Question",
+    "yourQuestion": "Your Question",
+    "questionPlaceholder": "Type your road rules question here...",
+    "multipleChoice": "This is a multiple-choice question (has options A, B, C, D)",
+    "option": "Option {{letter}}",
+    "solveBtn": "Solve & Teach",
+    "solving": "Solving...",
+    "fromBook": "Answer from Your Book",
+    "generalKnowledge": "General Knowledge Answer",
+    "notFoundInBook": "This topic was not found in your uploaded books. The answer is based on general road traffic knowledge.",
+    "teachingExplanation": "Teaching Explanation",
+    "optionAnalysis": "Option Analysis",
+    "correct": "CORRECT",
+    "incorrect": "INCORRECT",
+    "ruleReference": "Rule Reference",
+    "practicalExample": "Practical Example",
+    "safetyTip": "Safety Tip",
+    "keyPoints": "Key Points to Remember",
+    "practiceQuestion": "Practice Question",
+    "sources": "Sources:",
+    "exampleQuestions": "Example Questions",
+    "howItWorks": "How it works",
+    "howItWorksDesc": "Type any road rules question and the AI will:",
+    "howItWorksSteps": [
+      "Search your uploaded books first",
+      "Teach with full explanations",
+      "Explain why each option is right or wrong",
+      "Give examples and safety tips"
+    ],
+    "uploadReminder": "If your question comes from a book you uploaded, make sure it is uploaded in the Library section first.",
+    "enterQuestion": "Please enter a question",
+    "failedToSolve": "Failed to solve question"
+  },
+  "admin": {
+    "pageTitle": "Admin - Road Rules",
+    "title": "Admin Dashboard",
+    "stats": {
+      "users": "Users",
+      "quizzes": "Quizzes",
+      "videos": "Videos",
+      "documents": "Documents",
+      "payments": "Payments",
+      "certificates": "Certificates"
+    },
+    "links": {
+      "libraryUpload": "Library Upload",
+      "libraryUploadDesc": "Upload and manage documents",
+      "videoUpload": "Video Upload",
+      "videoUploadDesc": "Upload and manage videos",
+      "aiQuestions": "AI Questions",
+      "aiQuestionsDesc": "Generate questions from books with AI",
+      "teamMembers": "Team Members",
+      "teamMembersDesc": "Manage hall of fame team",
+      "userManagement": "User Management",
+      "userManagementDesc": "Manage users and roles",
+      "questions": "Questions",
+      "questionsDesc": "Manage quiz/exam questions",
+      "payments": "Payments",
+      "paymentsDesc": "View payment history",
+      "subscriptions": "Subscriptions",
+      "subscriptionsDesc": "Manage subscriptions",
+      "certificates": "Certificates",
+      "certificatesDesc": "Issue certificates",
+      "reports": "Reports",
+      "reportsDesc": "View reports and analytics"
+    }
+  },
+  "adminLibrary": {
+    "pageTitle": "Manage Library - Admin",
+    "title": "Manage Library",
+    "uploadTitle": "Upload Document",
+    "titleField": "Title *",
+    "description": "Description",
+    "categoryId": "Category ID",
+    "free": "Free?",
+    "freeOption": "Free",
+    "premiumOption": "Premium",
+    "fileField": "File (PDF, DOC, DOCX) *",
+    "uploadBtn": "Upload Document",
+    "uploading": "Uploading...",
+    "allDocuments": "All Documents",
+    "loading": "Loading...",
+    "noDocuments": "No documents yet",
+    "titleColumn": "Title",
+    "downloadsColumn": "Downloads",
+    "actionsColumn": "Actions",
+    "deleteConfirm": "Delete this document?",
+    "uploadSuccess": "Document uploaded",
+    "deleteSuccess": "Document deleted",
+    "failedToLoad": "Failed to load documents",
+    "uploadFailed": "Upload failed",
+    "deleteFailed": "Failed to delete"
+  },
+  "adminVideos": {
+    "pageTitle": "Manage Videos - Admin",
+    "title": "Manage Videos",
+    "uploadTitle": "Upload Video",
+    "titleField": "Title *",
+    "description": "Description",
+    "duration": "Duration (seconds)",
+    "categoryId": "Category ID",
+    "free": "Free?",
+    "freeOption": "Free",
+    "premiumOption": "Premium",
+    "fileField": "Video File (MP4, MKV, AVI, MOV) *",
+    "uploadBtn": "Upload Video",
+    "uploading": "Uploading...",
+    "allVideos": "All Videos",
+    "loading": "Loading...",
+    "noVideos": "No videos yet",
+    "titleColumn": "Title",
+    "viewsColumn": "Views",
+    "actionsColumn": "Actions",
+    "deleteConfirm": "Delete this video?",
+    "uploadSuccess": "Video uploaded",
+    "deleteSuccess": "Video deleted",
+    "failedToLoad": "Failed to load videos",
+    "uploadFailed": "Upload failed",
+    "deleteFailed": "Failed to delete"
+  },
+  "adminAiQuestions": {
+    "pageTitle": "AI Questions Generator - Admin",
+    "title": "AI Question Generator",
+    "refresh": "Refresh",
+    "generateTitle": "Generate Questions from Book Content",
+    "description": "Select an uploaded book and use AI to automatically generate multiple-choice questions. The content will be extracted and sent to OpenAI for question generation.",
+    "selectDocument": "Select Document",
+    "loadingDocuments": "Loading documents...",
+    "noDocuments": "No documents found.",
+    "uploadOne": "Upload one first",
+    "chooseDoc": "-- Choose a document --",
+    "questionCount": "Question Count",
+    "questions": "questions",
+    "preview": "Preview",
+    "generating": "Generating...",
+    "generateAndSave": "Generate & Save",
+    "generatingAndSaving": "Generating & Saving...",
+    "aiGenerating": "AI is generating questions from the book content...",
+    "aiGeneratingWait": "This may take 30-60 seconds",
+    "previewTitle": "Preview ({{count}} questions)",
+    "saveAll": "Save All",
+    "cancel": "Cancel",
+    "notSavedYet": "These questions are not saved yet. Click \"Save All\" to add them to the question bank, or \"Generate & Save\" to skip preview next time.",
+    "questionsSaved": "Questions Saved!",
+    "savedCount": "{{count}} new questions added to the question bank.",
+    "willAppear": "These questions will appear in future free tests.",
+    "generateMore": "Generate More",
+    "tryFreeTest": "Try a Free Test",
+    "viewGenerated": "View generated questions",
+    "selectDocFirst": "Select a document first",
+    "generatedCount": "Generated {{count}} questions",
+    "aiGenerationFailed": "AI generation failed",
+    "selectPrompt": "Select a document and choose Preview or Generate & Save"
+  },
+  "adminTeamMembers": {
+    "pageTitle": "Manage Team - Admin",
+    "title": "Team Members",
+    "addMember": "Add Member",
+    "editMember": "Edit Member",
+    "addNewMember": "Add New Member",
+    "name": "Name *",
+    "role": "Role *",
+    "rolePlaceholder": "e.g. Founder, Instructor",
+    "description": "Description",
+    "displayOrder": "Display Order",
+    "active": "Active",
+    "inactive": "Inactive",
+    "photo": "Photo",
+    "save": "Saving...",
+    "update": "Update",
+    "addMemberBtn": "Add Member",
+    "cancel": "Cancel",
+    "allMembers": "All Members",
+    "loading": "Loading...",
+    "noMembers": "No team members yet",
+    "photoColumn": "Photo",
+    "nameColumn": "Name",
+    "roleColumn": "Role",
+    "descriptionColumn": "Description",
+    "orderColumn": "Order",
+    "statusColumn": "Status",
+    "actionsColumn": "Actions",
+    "deleteConfirm": "Delete this team member?",
+    "nameRoleRequired": "Name and role are required",
+    "loadFailed": "Failed to load team members",
+    "updateSuccess": "Team member updated",
+    "addSuccess": "Team member added",
+    "deleteSuccess": "Team member deleted",
+    "deleteFailed": "Failed to delete",
+    "saveFailed": "Save failed"
+  },
+  "pageNotFound": {
+    "title": "404",
+    "message": "Page not found",
+    "goHome": "Go home"
+  }
+}

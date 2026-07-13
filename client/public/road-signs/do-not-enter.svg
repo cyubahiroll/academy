@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect x="10" y="40" width="180" height="120" rx="8" fill="#cc0000" stroke="white" stroke-width="4"/>
+  <circle cx="100" cy="100" r="42" fill="white"/>
+  <rect x="68" y="90" width="64" height="20" rx="4" fill="#cc0000"/>
+  <text x="100" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="white">DO NOT</text>
+  <text x="100" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="white">ENTER</text>
+</svg>

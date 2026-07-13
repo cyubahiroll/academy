@@ -1,0 +1,90 @@
+{
+  "title": "Road Traffic Rules Reference Guide",
+  "description": "Comprehensive reference material for road traffic rules, signs, and driving regulations",
+  "sections": [
+    {
+      "title": "Traffic Signals and Lights",
+      "content": "Red light means come to a complete stop. You must stop behind the stop line, crosswalk, or before entering the intersection. Green light means proceed when the intersection is clear. Yellow light warns that the light is about to turn red; stop if you can do so safely, otherwise proceed with caution. Flashing yellow light means proceed with caution. Flashing red light means come to a complete stop, then proceed when safe. A red arrow means you cannot turn in that direction. A green arrow means you may turn in that direction. A yellow arrow means the protected turn is ending."
+    },
+    {
+      "title": "Stop Signs and Yield Signs",
+      "content": "A red octagonal (8-sided) sign means STOP. You must come to a complete stop at the stop line, crosswalk, or before entering the intersection. Yield signs are upside-down triangles (point down). Yield means slow down and be prepared to stop if necessary. Give the right-of-way to other vehicles and pedestrians."
+    },
+    {
+      "title": "Warning Signs",
+      "content": "Warning signs are typically yellow with black symbols or text. Diamond-shaped signs warn of upcoming hazards. Common warning signs include: sharp curve ahead, slippery when wet, pedestrian crossing, school zone, animal crossing, road work ahead, traffic signal ahead, and crossroad ahead. School zone signs are pentagonal (5-sided) and yellow-green."
+    },
+    {
+      "title": "Regulatory Signs",
+      "content": "Regulatory signs are typically white with black or red text and symbols. Red circle with a diagonal slash means something is prohibited (no U-turn, no parking, no left turn). Speed limit signs show the maximum legal speed in miles or kilometers per hour. One-way signs are rectangular with a black arrow. Do Not Enter signs are square with a red circle and white horizontal bar. Stop signs are the only octagonal sign."
+    },
+    {
+      "title": "Guide Signs and Information Signs",
+      "content": "Green signs provide directional guidance and mileage to locations. Blue signs indicate services like gas, food, lodging, and hospitals. Brown signs point to recreational areas, parks, and historic sites. White signs with black text show route markers and street names. Orange signs are used in construction and work zones."
+    },
+    {
+      "title": "Right-of-Way Rules",
+      "content": "At an uncontrolled intersection, yield to vehicles already in the intersection and vehicles to your right. At a four-way stop, the first vehicle to arrive goes first. If two vehicles arrive at the same time, yield to the vehicle on your right. Always yield to emergency vehicles with flashing lights and sirens. Yield to pedestrians in crosswalks. When entering a roundabout, yield to traffic already in the circle. When turning left, yield to oncoming traffic."
+    },
+    {
+      "title": "Speed Limits",
+      "content": "Speed limits vary by road type and location. In school zones, the speed limit is typically 25 km/h (15 mph) when children are present. Residential areas typically have 25-30 km/h limits. Urban roads typically 40-50 km/h. Highways typically 80-100 km/h. Always adjust speed for conditions: reduce speed in rain, fog, snow, heavy traffic, and at night. Driving too fast for conditions is illegal even if under the posted limit."
+    },
+    {
+      "title": "Following Distance and Overtaking",
+      "content": "Maintain at least 3-4 seconds of following distance in good conditions. Increase to 5-6 seconds in rain, fog, or at night. Use the 3-second rule: pick a fixed object, when the vehicle ahead passes it, count 'one-thousand-one, one-thousand-two, one-thousand-three'. If you pass the object before finishing, you are following too closely. Only pass other vehicles when signs and road markings permit. Do not pass in school zones, on hills with limited visibility, at intersections, or in no-passing zones."
+    },
+    {
+      "title": "Parking Rules",
+      "content": "Do not park within 5 meters (15 feet) of a fire hydrant. Do not park within 6 meters (20 feet) of a crosswalk or intersection. Do not park within 9 meters (30 feet) of a stop sign or traffic signal. Do not park on sidewalks, in bicycle lanes, or in front of driveways. Do not park within 15 meters (50 feet) of railroad crossing. Park in the direction of traffic on the right side of the road unless otherwise marked. On a hill, turn your wheels toward the curb when parking downhill and away from the curb when parking uphill."
+    },
+    {
+      "title": "Alcohol and Drugs",
+      "content": "Driving under the influence of alcohol or drugs is illegal. In most jurisdictions, driving with a blood alcohol concentration (BAC) of 0.08% or higher is illegal. For commercial drivers, the limit is typically 0.04%. Penalties include fines, license suspension, and imprisonment. Never drive after consuming marijuana, prescription drugs that cause drowsiness, or illegal drugs. Designate a sober driver or use public transportation."
+    },
+    {
+      "title": "Turn Signals and Lane Changes",
+      "content": "Turn signals must be activated at least 30 meters (100 feet) before your turn. Signal every lane change, even when you don't see other vehicles. Check your mirrors and blind spots before changing lanes. Use your turn signal when pulling away from the curb and when pulling over. Cancel your signal after completing the turn or lane change."
+    },
+    {
+      "title": "School Buses and Pedestrians",
+      "content": "You must always stop when a school bus displays flashing red lights, regardless of which direction you are traveling, except on divided highways. Do not proceed until the bus turns off its flashing lights. Always yield to pedestrians in crosswalks. Do not pass a vehicle stopped at a crosswalk. Watch for children near schools and playgrounds. School zone speed limits are in effect during school hours."
+    },
+    {
+      "title": "Roundabouts",
+      "content": "When approaching a roundabout, slow down and look for signs. Yield to traffic already in the roundabout. Enter when there is a safe gap. Do not stop inside the roundabout. Use your right turn signal when exiting. Stay in your lane. Do not change lanes inside the roundabout. Larger vehicles may need both lanes."
+    },
+    {
+      "title": "Required Documents for Drivers",
+      "content": "All drivers must carry: a valid driver's license, vehicle registration document, and proof of insurance. These must be presented to law enforcement upon request. Driving without a valid license, registration, or insurance is illegal and may result in fines, vehicle impoundment, or legal penalties."
+    },
+    {
+      "title": "Defensive Driving",
+      "content": "Always scan the road ahead for potential hazards. Maintain a safe following distance. Be aware of blind spots. Expect the unexpected from other drivers. Avoid distractions like mobile phones. Do not drive when tired or drowsy. Keep both hands on the steering wheel. Adjust speed for weather conditions. Be extra cautious at intersections. Always wear your seatbelt."
+    },
+    {
+      "title": "Accident Procedures",
+      "content": "If involved in an accident: stop immediately, check for injuries, call emergency services if needed, exchange information with other drivers (names, contact, insurance, license plate), do not admit fault, document the scene with photos, notify your insurance company, and do not leave the scene."
+    },
+    {
+      "title": "Motorcycle and Bicycle Safety",
+      "content": "Motorcyclists must wear helmets. Pass motorcycles with extra caution and give them full lane width. Check blind spots for motorcycles before changing lanes. Bicyclists must follow the same traffic laws as vehicles. Give bicyclists at least 1.5 meters (5 feet) of space when passing. Check for bicyclists before opening car doors."
+    },
+    {
+      "title": "Highway Driving",
+      "content": "When entering a highway, use the acceleration lane to match highway speed, signal, check mirrors and blind spots, then merge smoothly. On the highway, keep right except to pass. Do not stop on the highway. If you miss your exit, continue to the next exit. Never reverse or make U-turns on the highway. Use your turn signals when changing lanes."
+    },
+    {
+      "title": "Night Driving",
+      "content": "Use headlights from sunset to sunrise and in low visibility conditions. Use low beams when following another vehicle within 60 meters (200 feet) and when an oncoming vehicle is within 150 meters (500 feet). Use high beams on dark roads with no oncoming traffic. Reduce speed at night. Keep headlights clean. Do not drive while blinded by oncoming headlights."
+    },
+    {
+      "title": "Emergency Vehicles",
+      "content": "When an emergency vehicle with flashing lights and siren approaches, pull over to the right side of the road and stop. Do not block intersections. If you are in an intersection, clear it before pulling over. Do not follow emergency vehicles within 150 meters (500 feet). It is illegal to park in front of a fire station."
+    },
+    {
+      "title": "Seatbelts and Child Restraints",
+      "content": "All occupants must wear seatbelts at all times. Children under a certain age/size must use appropriate child safety seats. Infants should be in rear-facing seats. Toddlers should be in forward-facing seats with harnesses. Older children should use booster seats until seatbelts fit properly. Never place a rear-facing child seat in front of an active airbag."
+    }
+  ]
+}

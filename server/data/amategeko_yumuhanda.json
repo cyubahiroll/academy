@@ -1,0 +1,79 @@
+{
+  "title": "Amategeko y'umuhanda - Road Traffic Rules (Kinyarwanda)",
+  "description": "Inyandiko yuzuye ivuga amategeko y'umuhanda, ibimenyetso, n'uburyo bwo gutwara neza",
+  "is_kinyarwanda": true,
+  "sections": [
+    {
+      "title": "Ibimenyetso by'Umuhanda (Traffic Signs)",
+      "content": "Ikimenyetso cy'umutuku gifite impande umunani (octagon) gisobanura HAGARA. Ugomba guhagarara neza. Ikimenyetso cy'umuhanda gitanga umwanya (yield) ni mpandeshatu (triangle) yerekana hasi. Ikimenyetso cy'umuhura (warning) ni ikihuru (diamond) gifite ibara ry'umuhondo n'umukara. Ikimenyetso cy'ikigo cy'ishuri ni gifite impande eshanu (pentagon) kikaba ikihuru n'icyatsi."
+    },
+    {
+      "title": "Amatafari y'Umuhanda (Traffic Lights)",
+      "content": "Amatafari atukura: HAGARA neza. Amatafari y'icyatsi: Komeza uramutse umuhanda usatuye. Amatafari y'umuhondo: Icyitondetse, urumuri rugiye guhinduka. Amatafari akurika (flashing) y'umuhondo: Komeza ugenderana n'ubwitonzi. Amatafari akurika atukura: Hagarara hanyuma ukomeze niba ari byiza."
+    },
+    {
+      "title": "Ibyerekeye Vitesi (Speed Limits)",
+      "content": "Mu kigo cy'ishuri: 25 km/h mugihe hari abana. Mu duce dutuwe: 25-30 km/h. Mu mijyi: 40-50 km/h. Ku muhanda munini: 80-100 km/h. Igihe imvura itose cyangwa hari umuyaga: Koresha vitesi nto. Ntukajye uvitesi irenga amategeko yemera."
+    },
+    {
+      "title": "Kurinda Umwanya (Following Distance)",
+      "content": "Ugomba kureka nibura amasegonda 3-4 hagati yawe n'ikinyabiziga kikubanjirije. Mu gihe cy'imvura cyangwa umukuyu: Ama segonda 5-6. Ikoresha itegeko rya segonda eshatu: Hitamo ikintu, ubwo ikinyabiziga kikubanjirije kigihishira, ubare 'ikwezi, impaka, amaraso' - niba ukihishije mbere yuko urangiza kubara, uri hafi cyane."
+    },
+    {
+      "title": "Ibyerekeye Alkolo n'ibiyobyabwenge (Alcohol and Drugs)",
+      "content": "Kunywa alkolo ugatwara ikinyabiziga ni amategeko akabya. Kuruhande runini, kugira alkolo mu maraso kugera kuri 0.08% cyangwa hejuru ni amategeko akabya. Ku batwara imodoka zikomeye: 0.04%. Ibihano birimo amande, guhagarikwa impushya, n'igifungo. Ntukajye utwara nyuma yo kunywa alkolo cyangwa ibiyobyabwenge."
+    },
+    {
+      "title": "Inzibacyuho n'Imipaka yo Guhindurira (No-Passing and Overtaking)",
+      "content": "Ntukajye urenga (overtake) mu kigo cy'ishuri, ku musozi ufite imbere itagaragara, ku masangano, cyangwa aho amategeko abujije. Urenga gusa iyo ibimenyetso n'ibipimo by'umuhanda biremereye. Koresha ibimenyetso byo guhindurira (turn signals) nibura metero 30 mbere y'aho uhindukirira."
+    },
+    {
+      "title": "Uburenganzira bwo Kunyura (Right of Way)",
+      "content": "Ku masangano adafite amatafari: Emerera abantu bari mu nzira kandi wemere ikinyabiziga giturutse iburyo. Ku masangano afite Hagarara enye (4-way stop): Ikinyabiziga kigeze mbere ni cyo kibanza kunyura. Emerera abagenzi (pedestrians) bari mu nzira. Emerera imodoka z'ibikorwa by'ihutirwa zifite amatafari n'ijwi ry'ihutirwa. Igihe uhinnye ibumoso, emerera imodoka izanye."
+    },
+    {
+      "title": "Guhagara (Parking Rules)",
+      "content": "Ntugahagare metero 5 (15 feet) ikijyana na fire hydrant. Ntugahagare metero 6 (20 feet) ikijyana na crosswalk cyangwa intersection. Ntugahagare metero 9 (30 feet) ikijyana na stop sign. Ntugahagare kuri pavement, mu nzira y'amagare, cyangwa imbere y'irembo. Ntugahagare metero 15 (50 feet) ikijyana na railroad crossing."
+    },
+    {
+      "title": "Inzira z'Abanyeshuri (School Buses)",
+      "content": "Ugomba guhagarara iyo bisi y'ishuri iri amatafari atukura akurika (flashing red lights), hatitawe ku ruhande uri, usibye ku muhanda munini ufite urubibi hagati. Ntugakomeze kugeza bisi yazimye amatafari. Jya wemera abana banyura mu nzira."
+    },
+    {
+      "title": "Inyandiko Zisabwa (Required Documents)",
+      "content": "Umushoferi wese agomba gutwara: Impushya yo gutwara (driver's license), icyemezo cy'ikinyabiziga (vehicle registration), n'ikimenyetso cy'ubwishingizi (insurance). Izi nyandiko zigomba kwerekana abapolisi igihe babisabye. Gutwara nta impushya, icyemezo, cyangwa ubwishingizi ni amategeko akabya."
+    },
+    {
+      "title": "Ibikorwa by'Ihutirwa (Emergency Procedures)",
+      "content": "Niba ukize impanuka: Hagarara ako kanya, reba niba hari uwakomeretse, hamagara abaganga niba bikenewe, wandukanye amakuru n'abandi bashoferi (amazina, kontakte, ubwishingizi, nomero ya plato), ntukemere ko ari wowe wagize icyaha, wandike ibintu amafoto, menyesha isosiyete yawe y'ubwishingizi, kandi ntugahaguruke ahantu h'impanuka."
+    },
+    {
+      "title": "Kwirinda Impuka (Defensive Driving)",
+      "content": "Jya uraba imbere y'umuhanda ugashaka ibishobora kuba ibyago. Urameze umwanya ukwiye. Jya wita ku ndobo zisiraniye (blind spots). Witere ikintu cyose gitunguranye. Wirinde ibintu bikurandamiza nka terefone. Ntukajye utwara n'umunaniro. Koresha intoki zombi kuri volant. Hindura vitesi ukurikije ikirere. Ube maso cyane ku masangano. Jya ukoresha umupira (seatbelt) buri gihe."
+    },
+    {
+      "title": "Ibyerekeye Amagare n'amapikipiki (Motorcycle and Bicycle Safety)",
+      "content": "Abarwayi ba pikipiki bagomba kwambara ingofero (helmet). Ujyane na pikipiki witegere, ubahe umwanya wuzuye. Jya uraba indobo zisiraniye mbere yo guhindura icyerekezo. Abatwara amagare bagomba gukurikiza amategeko y'umuhanda nk'ibinyabiziga. Ube metero 1.5 nibura uretse igare mbere yo kurirenga."
+    },
+    {
+      "title": "Gutwara mu Gicuku (Night Driving)",
+      "content": "Koresha amatara kuva izuba rirenze kugeza amatare yaka. Koresha amatara make (low beams) iyo ukurikira ikindi kinyabiziga kitari metero 60 cyangwa iyo ikindi kinyabiziga kitari metero 150. Koresha amatara menshi (high beams) ku muhanda wijimye nta modoka izanye. Gabanya vitesi nijoro."
+    },
+    {
+      "title": "Gutwara ku Muhanda Munini (Highway Driving)",
+      "content": "Iyo ujyanye ku muhanda munini, koresha umuhanda wihutirira (acceleration lane) kugirango uhuye na vitesi, shyira ikimenyetso (signal), reba indobo zisiraniye, hanyuma winjire neza. Ku muhanda munini, komeza iburyo usibye iyo urenga. Ntugahagare ku muhanda munini. Niba wabuze aho usohokera, komeza ukageza ahandi."
+    },
+    {
+      "title": "Imodoka z'Ibikorwa by'Ihutirwa (Emergency Vehicles)",
+      "content": "Iyo imodoka y'ibikorwa by'ihutirwa iri amatara akurika n'ijwi ry'ihutirwa, kwegera iburyo bw'umuhanda ugahagara. Ntugahagarare mu masangano. Ntugakurikire imodoka y'ibikorwa by'ihutirwa hasi ya metero 150."
+    },
+    {
+      "title": "Roundabout (Izinga)",
+      "content": "Iwo ugiye mu izinga (roundabout), gabanya vitesi urebe ibimenyetso. Emerera ibinyabiziga biri mu izinga. Injira iyo hari umwanya. Ntugahagare mu izinga. Shyira ikimenyetso iburyo igihe usohoka. Urameze umuhanda wawe."
+    },
+    {
+      "title": "Uburyo bwo Gukata no Guhindukira (Turning and Lane Changes)",
+      "content": "Koresha ibimenyetso byo guhindukira nibura metero 30 mbere y'aho uhinnye. Koresha ikimenyetso buri gihe uhindura umuhanda, ndetse n'iyo nta modoka ubona. Reba indobo zisiraniye mbere yo guhindura umuhanda. Koresha ikimenyetso igihe ugenda uri iruhande rw'umuhanda."
+    }
+  ]
+}
