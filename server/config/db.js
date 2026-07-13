@@ -15,6 +15,8 @@ const dbConfig = {
   queueLimit: 0,
   charset: 'utf8mb4',
   multipleStatements: true,
+  enableKeepAlive: true,
+  keepAliveInitialDelay: 10000,
 };
 
 if (process.env.DB_SSL === 'true') {

@@ -46,8 +46,14 @@ app.use('/uploads/profile', express.static(path.join(__dirname, 'uploads', 'prof
 app.use('/uploads/certificates', express.static(path.join(__dirname, 'uploads', 'certificates')));
 app.use('/uploads/videos', express.static(path.join(__dirname, 'uploads', 'videos')));
 
-app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+app.get('/api/health', async (req, res) => {
+  const db = require('./config/db');
+  try {
+    await db.query('SELECT 1');
+    res.json({ status: 'ok', db: 'connected', timestamp: new Date().toISOString() });
+  } catch (err) {
+    res.status(500).json({ status: 'error', db: 'disconnected', timestamp: new Date().toISOString() });
+  }
 });
 
 app.use('/api/auth', authRoutes);
