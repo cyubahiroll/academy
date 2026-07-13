@@ -44,7 +44,7 @@ function Exam() {
   const loadExams = async () => {
     try {
       const { data } = await axios.get(API_URL);
-      setExams(data);
+      setExams(Array.isArray(data) ? data : []);
     } catch (error) {
       toast.error(t('exam.failedToLoad'));
     } finally {
@@ -91,7 +91,7 @@ function Exam() {
   };
 
   const handleSubmit = async () => {
-    const unanswered = questions.filter((_, i) => !answers[i]);
+    const unanswered = (Array.isArray(questions) ? questions : []).filter((_, i) => !answers[i]);
     if (unanswered.length > 0) {
       toast.error(`Please answer all questions (${unanswered.length} remaining)`);
       return;

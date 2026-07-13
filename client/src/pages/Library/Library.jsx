@@ -27,7 +27,7 @@ function Library() {
   const loadDocuments = async () => {
     try {
       const data = await libraryService.getAll();
-      setDocuments(data);
+      setDocuments(Array.isArray(data) ? data : []);
     } catch (error) {
       console.error('Failed to load documents:', error);
     } finally {
@@ -35,9 +35,9 @@ function Library() {
     }
   };
 
-  const categories = ['all', ...new Set(documents.map(d => d.category_name).filter(Boolean))];
+  const categories = ['all', ...new Set((Array.isArray(documents) ? documents : []).map(d => d.category_name).filter(Boolean))];
 
-  const filtered = documents.filter(d => {
+  const filtered = (Array.isArray(documents) ? documents : []).filter(d => {
     const matchSearch = d.title.toLowerCase().includes(search.toLowerCase()) ||
       (d.description && d.description.toLowerCase().includes(search.toLowerCase()));
     const matchCategory = categoryFilter === 'all' || d.category_name === categoryFilter;

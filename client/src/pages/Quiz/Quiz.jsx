@@ -41,7 +41,7 @@ function Quiz() {
   const loadQuizzes = async () => {
     try {
       const data = await quizService.getAll(true);
-      setQuizzes(data);
+      setQuizzes(Array.isArray(data) ? data : []);
     } catch (error) {
       toast.error(t('quiz.failedToLoad'));
     } finally {
@@ -88,7 +88,7 @@ function Quiz() {
   };
 
   const handleSubmit = async () => {
-    const unanswered = questions.filter((_, i) => !answers[i]);
+    const unanswered = (Array.isArray(questions) ? questions : []).filter((_, i) => !answers[i]);
     if (unanswered.length > 0) {
       toast.error(t('quiz.pleaseAnswerAll', { count: unanswered.length }));
       return;

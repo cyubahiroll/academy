@@ -19,7 +19,7 @@ function Videos() {
   const loadVideos = async () => {
     try {
       const data = await videoService.getAll();
-      setVideos(data);
+      setVideos(Array.isArray(data) ? data : []);
     } catch (error) {
       console.error('Failed to load videos:', error);
     } finally {
@@ -27,9 +27,9 @@ function Videos() {
     }
   };
 
-  const filtered = videos.filter(v =>
+  const filtered = Array.isArray(videos) ? videos.filter(v =>
     v.title.toLowerCase().includes(search.toLowerCase())
-  );
+  ) : [];
 
   const formatDuration = (seconds) => {
     if (!seconds) return t('common.notAvailable');
